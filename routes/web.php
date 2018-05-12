@@ -18,3 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin','AdminActionController@index')->name('admin.index');
+
+
+
+//imported
+Route::get('/a', 'HomeController@index1')->name("main");
+Route::get('/minor', 'HomeController@minor')->name("minor");
