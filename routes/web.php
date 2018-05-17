@@ -11,13 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@landing');
+Route::get('/home', 'HomeController@landing')->name('home');
 Route::get('/admin','AdminActionController@index')->name('admin.index');
 
 

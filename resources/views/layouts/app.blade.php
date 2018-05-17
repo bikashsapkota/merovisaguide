@@ -8,7 +8,9 @@
 
     <link rel="stylesheet" href="{!! asset('css/vendor.css') !!}" />
     <link rel="stylesheet" href="{!! asset('css/app.css') !!}" />
-
+    <link href="/css/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="/css/plugins/summernote/summernote.css" rel="stylesheet">
+<link href="/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
 </head>
 <body>
 
@@ -37,6 +39,7 @@
     <!-- End wrapper-->
 
 <script src="{!! asset('js/app.js') !!}" type="text/javascript"></script>
+
 
 @section('scripts')
 @show

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Country;
+use App\VisaType;
 
 class HomeController extends Controller
 {
@@ -33,7 +35,15 @@ class HomeController extends Controller
 
     public function minor()
     {
-        return view('home/minor');
+        $countries = Country::all();
+        $purposes = VisaType::all();
+        return view('home/minor', compact('countries','purposes'));
+    }
+
+    public function landing(){
+        $countries = Country::all();
+        $visatypes = VisaType::all();
+        return view('welcome', compact('countries','visatypes'));
     }
 
 

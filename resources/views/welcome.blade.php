@@ -102,20 +102,18 @@
             <div class="form-group">
                 <label for="exampleInputEmail1">Country</label>
                 <select class="form-control m-b" name="account">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
+                    @foreach($countries as $country)
+                        <option value={{$country->id}}>{{$country->name}}</option>
+                    @endforeach
                 </select>
                 <small id="emailHelp" class="form-text text-muted">Destination Country.</small>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Purpose</label>
                 <select class="form-control m-b" name="account">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
+                    @foreach($visatypes as $visatype)
+                        <option value={{$visatype->id}}>{{$visatype->name}}</option>
+                    @endforeach
                 </select>
             </div>
             
