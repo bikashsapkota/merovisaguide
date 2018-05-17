@@ -13,11 +13,11 @@
 
 Auth::routes();
 Route::get('/', 'HomeController@landing');
-Route::get('/home', 'HomeController@landing')->name('home');
+//Route::get('/home', 'HomeController@landing')->name('home');
 Route::get('/admin','AdminActionController@index')->name('admin.index');
 
 
 
 //imported
 Route::get('/a', 'HomeController@index1')->name("main");
-Route::get('/minor', 'HomeController@minor')->name("minor");
+Route::get('/home', 'HomeController@minor')->name("home");
