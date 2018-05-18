@@ -3,21 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Country;
+use App\VisaType;
 
 class AdminActionController extends Controller
 {
     //
     public function index(){
-        return view('home');
+        $countries = Country::all();
+        $purposes = VisaType::all();
+        return view('layouts.admin.index', compact('countries','purposes'));
     }
 
-    public function index1()
-    {
-        return view('home/index');
-    }
-
-    public function minor()
-    {
-        return view('home/minor');
-    }
 }

@@ -16,19 +16,20 @@
     <div id="wrapper">
 
         <!-- Navigation -->
-        @include('layouts.navigation')
+        @include('layouts.admin.navigation')
 
         <!-- Page wraper -->
         <div id="page-wrapper" class="gray-bg">
 
             <!-- Page wrapper -->
-            @include('layouts.topnavbar')
+            @include('layouts.admin.topnavbar')
 
             <!-- Main view  -->
+
             @yield('content')
 
             <!-- Footer -->
-            @include('layouts.footer')
+            @include('layouts.admin.footer')
 
         </div>
         <!-- End page wrapper-->

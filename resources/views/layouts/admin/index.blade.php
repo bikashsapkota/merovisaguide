@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin.app')
 
 @section('title', 'Minor page')
 
@@ -40,7 +40,7 @@
                         <div class="hr-line-dashed"></div>
                     </form>
                 </div>
-            </div>                                    
+            </div>
         </div>
     </div> -->
     <div class="row">
@@ -55,12 +55,12 @@
                             <div class="col-sm-11">
                                 <select class="select2_demo_1 form-control">
                                     @foreach($countries as $country)
-                                        <option value="{{$country->id}}">{{$country->name}}</option>
+                                    <option value="{{$country->id}}">{{$country->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
                         </div>
-                        
+
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
@@ -68,19 +68,19 @@
                             <div class="col-sm-11">
                                 <select class="select2_demo_1 form-control">
                                     @foreach($purposes as $porpose)
-                                        <option value="{{$porpose->id}}">{{$porpose->name}}</option>
+                                    <option value="{{$porpose->id}}">{{$porpose->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
                         </div>
-                        
+
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
                             <label class="col-sm-1 control-label">Title</label>
                             <div class="col-sm-11">
                                 <input type="text" name="title" class="form-control">
-                                
+
                             </div>
                         </div>
 
@@ -90,13 +90,13 @@
                             <label class="col-sm-1 control-label">Tags</label>
                             <div class="col-sm-11">
                                 <input type="text" name="title" class="form-control tagsinput" value="Amsterdam,Washington,Sydney,Beijing,Cairo">
-                                
+
                             </div>
                         </div>
-                        
+
                         <div class="hr-line-dashed"></div>
                         <h1>Compose Post </h1>
-                        <div class="mail-box">                                    
+                        <div class="mail-box">
                             <div class="mail-text h-200">
                                 <div class="summernote">
                                     <h3>Hello Jonathan! </h3>
@@ -110,7 +110,7 @@
                         <div class="hr-line-dashed"></div>
                     </form>
                 </div>
-            </div>                                    
+            </div>
         </div>
     </div>
 </div>
@@ -122,7 +122,7 @@
 <script src="/js/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        
+
     })
     $(".select2_demo_1").select2();
     $(".select2_demo_2").select2();
@@ -131,12 +131,12 @@
         allowClear: true
     });
     $('.summernote').summernote();
-     $('.tagsinput').tagsinput({
-            tagClass: 'label label-primary'
-      });
+    $('.tagsinput').tagsinput({
+        tagClass: 'label label-primary'
+    });
 
 
-    
+
 </script>
 
 @endsection

@@ -27,19 +27,7 @@ class HomeController extends Controller
     {
         return view('home');
     }
-
-    public function index1()
-    {
-        return view('home/index');
-    }
-
-    public function minor()
-    {
-        $countries = Country::all();
-        $purposes = VisaType::all();
-        return view('home/minor', compact('countries','purposes'));
-    }
-
+    
     public function landing(){
         $countries = Country::all();
         $visatypes = VisaType::all();
