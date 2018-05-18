@@ -19,9 +19,9 @@
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet">
 </head>
-<body id="page-top" class="landing-page no-skin-config">
+<body id="page-top" class="article landing-page no-skin-config" >
     <!-- Wrapper-->
-    <div id="wrapper">
+    <div id="wrapper" class="post">
 
         <!-- Navigation -->
         @include('layouts.post.navigation')
