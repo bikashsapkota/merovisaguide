@@ -1,4 +1,4 @@
-<nav class="navbar-default navbar-static-side" role="navigation">
+<nav class="navbar-default navbar-static-side" role="navigation" style="background-color: red">
     <div class="sidebar-collapse">
         <ul class="nav metismenu" id="side-menu">
             <li class="nav-header">
@@ -15,7 +15,7 @@
                     </ul>
                 </div>
                 <div class="logo-element">
-                    IN+
+                    MVG+
                 </div>
             </li>
             <li class="true">
