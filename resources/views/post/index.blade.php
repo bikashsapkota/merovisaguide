@@ -3,7 +3,7 @@
 <section id="visa-type" class="visa-type">
     <div class="animated fadeInRight article">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12" style="background-color: #f2f2f2">
                     <div class="ibox">
                         <div class="ibox-content">
                             <div class="pull-right">

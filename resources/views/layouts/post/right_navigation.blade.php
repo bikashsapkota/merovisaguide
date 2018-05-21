@@ -1,4 +1,4 @@
-<div style="padding-top: 100px">
+<div style="padding-top: 100px" >
     <h3>Recent Posts</h3>
 
     <ul class="list-group clear-list">
