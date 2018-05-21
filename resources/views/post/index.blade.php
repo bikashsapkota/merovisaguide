@@ -1,6 +1,6 @@
 @extends('layouts.post.app')
 @section('content')
-<section id="pricing" class="pricing">
+<section id="visa-type" class="visa-type">
     <div class="animated fadeInRight article">
             <div class="row">
                 <div class="col-lg-12">
