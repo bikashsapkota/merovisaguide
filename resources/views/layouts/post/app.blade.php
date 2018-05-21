@@ -24,25 +24,16 @@
     <div id="wrapper" class="post">
 
         <!-- Navigation -->
-        @include('layouts.post.navigation')
-
-        <!-- Page wraper -->
-        <div id="page-wrapper" class="gray-bg" style="padding-top: 70px">
-
-            <!-- Page wrapper -->
-            @include('layouts.post.topnavbar')
-
-            <!-- Main view  -->
-
-            
-                    @yield('content')
-            
-
-
-
+        @include('layouts.post.topnavbar')
+        <div class="col-md-2">
+            @include('layouts.post.right_navigation')
         </div>
-        <!-- End page wrapper-->
-
+        <div class="col-md-8">
+            @yield('content')
+        </div>
+        <div class="col-md-2">
+            @include('layouts.post.left_navigation')
+        </div>
     </div>
     <!-- End wrapper-->
 
