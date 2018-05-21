@@ -26,13 +26,14 @@
         <!-- Navigation -->
         @include('layouts.post.topnavbar')
         <div class="col-md-2">
-            @include('layouts.post.right_navigation')
+
+            @include('layouts.post.left_navigation')
         </div>
         <div class="col-md-8">
             @yield('content')
         </div>
         <div class="col-md-2">
-            @include('layouts.post.left_navigation')
+            @include('layouts.post.right_navigation')
         </div>
     </div>
     <!-- End wrapper-->
