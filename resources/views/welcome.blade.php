@@ -723,4 +723,4 @@
 
 </body>
 </html>
-<script src="/js/chat.js"></script>
+<!-- <script src="/js/chat.js"></script> -->
