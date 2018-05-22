@@ -1,5 +1,5 @@
 <div style="padding-top: 100px" >
-    <h3>Recent Posts</h3>
+    <h3 class="theme-color-text">Recent Posts</h3>
 
     <ul class="list-group clear-list">
         <li class="list-group-item fist-item">

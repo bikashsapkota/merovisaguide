@@ -18,6 +18,9 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet">
+<!--  Custom style for mvg  -->
+    <link href="/css/mvg.css" rel="stylesheet">
+
 </head>
 <body id="page-top" class="article landing-page no-skin-config" >
     <!-- Wrapper-->

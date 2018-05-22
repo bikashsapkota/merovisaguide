@@ -58,7 +58,7 @@
                         </h1>
                     <p>Consult Expert in this field</p>
                     <p>
-                        <a class="btn btn-lg btn-primary" href="#" role="button">Click For Enquiry</a>
+                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>
 
                     </p>
                 </div>
@@ -720,7 +720,7 @@
     new WOW().init();
 
 </script>
-
+@include('layouts.enquiry');
 </body>
 </html>
 <!-- <script src="/js/chat.js"></script> -->
