@@ -58,8 +58,8 @@
                         </h1>
                     <p>Consult Expert in this field</p>
                     <p>
-                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>
-
+<!--                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>-->
+                        <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                     </p>
                 </div>
                 <div class="carousel-image wow zoomIn">
