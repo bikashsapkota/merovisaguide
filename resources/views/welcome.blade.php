@@ -78,8 +78,7 @@
                     </h1>
                     <p>Consult Expert in this field</p>
                     <p>
-                        <a class="btn btn-lg btn-primary" href="#" role="button">Click For Enquiry</a>
-
+                        <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                     </p>
                 </div>
             </div>
