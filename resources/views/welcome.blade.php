@@ -601,6 +601,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
+
                     <div class="ibox-content">
                         <div class="dd" id="nestable5">
                             <ol class="dd-list">
@@ -639,108 +640,6 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable2">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ibox ">
-                    <div class="ibox-content">
-                        <div class="dd" id="nestable3">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ibox ">
-                    <div class="ibox-content">
-                        <div class="dd" id="nestable4">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ibox ">
-                    <div class="ibox-content">
                         <div class="dd" id="nestable5">
                             <ol class="dd-list">
                                 <li class="dd-item" data-id="1">
@@ -772,7 +671,111 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable6">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable7">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable8">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </section>
 
@@ -861,6 +864,10 @@
         }).nestable('collapseAll');;
 
         $('#nestable3').nestable({
+            group: 1
+        }).nestable('collapseAll');
+
+        $('#nestable4').nestable({
             group: 1
         }).nestable('collapseAll');
 
