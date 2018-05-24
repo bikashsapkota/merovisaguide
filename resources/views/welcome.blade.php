@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/mvg.css" rel="stylesheet">
 </head>
 <body id="page-top" class="landing-page no-skin-config">
 <div class="navbar-wrapper">
@@ -37,7 +38,7 @@
                         <li><a class="page-scroll" href="#visa-type">Visa Type</a></li>
                         <li><a class="page-scroll" href="#ourservices">Our Services</a></li>
                         <li><a class="page-scroll" href="#testimonials">Testimonials</a></li>
-                        <li><a class="page-scroll" href="#pricing">Pricing</a></li>
+                        <li><a class="page-scroll" href="#pricing">Country</a></li>
                         <li><a class="page-scroll" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -492,117 +493,287 @@
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1>App Pricing</h1>
-                <p>Mero Visa Guide provides free online counseling. We recommend you to visit us for private counseling with minimum charge. </p>
+                <h1>Some of the popular countries you might be interested in </h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 wow zoomIn">
-                <ul class="pricing-plan list-unstyled">
-                    <li class="pricing-title">
-                        Basic
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$16</span> / month
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li>
-                        <a class="btn btn-primary btn-xs" href="#">Signup</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable2">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
 
-            <div class="col-lg-4 wow zoomIn">
-                <ul class="pricing-plan list-unstyled selected">
-                    <li class="pricing-title">
-                        Standard
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$22</span> / month
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li>
-                        <strong>Support platform</strong>
-                    </li>
-                    <li class="plan-action">
-                        <a class="btn btn-primary btn-xs" href="#">Signup</a>
-                    </li>
-                </ul>
-            </div>
+                            </ol>
+                        </div>
 
-            <div class="col-lg-4 wow zoomIn">
-                <ul class="pricing-plan list-unstyled">
-                    <li class="pricing-title">
-                        Premium
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$160</span> / month
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li>
-                        <a class="btn btn-primary btn-xs" href="#">Signup</a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable3">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable4">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable5">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row m-t-lg">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg">
-                <p>*Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. <span class="navy">Various versions</span>  have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable2">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable3">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable4">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd" id="nestable5">
+                            <ol class="dd-list">
+                                <li class="dd-item" data-id="1">
+                                    <div class="dd-handle">
+                                        <span class="label label-info"><i class="fa fa-users"></i></span> AUSTRALIA
+                                    </div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 </section>
 
 <section id="contact" class="gray-section contact">
@@ -659,6 +830,10 @@
 <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
+<!-- Nestable List -->
+<script src="js/plugins/nestable/jquery.nestable.js"></script>
+
+
 <!-- Custom and plugin javascript -->
 <script src="js/inspinia.js"></script>
 <script src="js/plugins/pace/pace.min.js"></script>
@@ -668,6 +843,42 @@
 <script>
 
     $(document).ready(function () {
+
+
+        var updateOutput = function (e) {
+            var list = e.length ? e : $(e.target),
+                output = list.data('output');
+            if (window.JSON) {
+                output.val(window.JSON.stringify(list.nestable('serialize')));//, null, 2));
+            } else {
+                output.val('JSON browser support required for this demo.');
+            }
+        };
+
+        // activate Nestable for list 2
+        $('#nestable2').nestable({
+            group: 1
+        }).nestable('collapseAll');;
+
+        $('#nestable3').nestable({
+            group: 1
+        }).nestable('collapseAll');
+
+
+        $('#nestable-menu').on('click', function (e) {
+            var target = $(e.target),
+                action = target.data('action');
+            if (action === 'expand-all') {
+                $('.dd').nestable('expandAll');
+            }
+            if (action === 'collapse-all') {
+                $('.dd').nestable('collapseAll');
+            }
+        });
+
+
+
+
 
         $('body').scrollspy({
             target: '.navbar-fixed-top',
