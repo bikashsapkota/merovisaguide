@@ -17,4 +17,7 @@ Route::get('/', 'HomeController@landing');
 
 //imported
 Route::get('/admin', 'AdminActionController@index')->name("admin.index");
-Route::get('/post','PostController@index');
+Route::get('/post/{title}','PostController@index');
+
+Route::post('/admin/post/store','PostController@store')->name('admin.store_post');
+

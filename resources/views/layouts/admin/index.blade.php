@@ -50,10 +50,10 @@
                     <h5>All form elements <small>With custom checbox and radion elements.</small></h5>
                 </div>
                 <div class="ibox-content">
-                    <form method="get" class="form-horizontal">
+                    <form method="post" class="form-horizontal" action="{{route('admin.store_post')}}">
                         <div class="form-group"><label class="col-sm-1 control-label">Country</label>
                             <div class="col-sm-11">
-                                <select class="select2_demo_1 form-control">
+                                <select class="select2_demo_1 form-control" name="country">
                                     @foreach($countries as $country)
                                     <option value="{{$country->id}}">{{$country->name}}</option>
                                     @endforeach
@@ -66,7 +66,7 @@
                         <div class="form-group">
                             <label class="col-sm-1 control-label">Purpose</label>
                             <div class="col-sm-11">
-                                <select class="select2_demo_1 form-control">
+                                <select class="select2_demo_1 form-control" name="purpose">
                                     @foreach($purposes as $porpose)
                                     <option value="{{$porpose->id}}">{{$porpose->name}}</option>
                                     @endforeach
@@ -79,7 +79,7 @@
                         <div class="form-group">
                             <label class="col-sm-1 control-label">Title</label>
                             <div class="col-sm-11">
-                                <input type="text" name="title" class="form-control">
+                                <input type="text" class="form-control" name="title">
 
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                         <div class="form-group">
                             <label class="col-sm-1 control-label">Tags</label>
                             <div class="col-sm-11">
-                                <input type="text" name="title" class="form-control tagsinput" value="Amsterdam,Washington,Sydney,Beijing,Cairo">
+                                <input type="text" class="form-control tagsinput" value="Amsterdam,Washington,Sydney,Beijing,Cairo" name="tags">
 
                             </div>
                         </div>
@@ -98,16 +98,24 @@
                         <h1>Compose Post </h1>
                         <div class="mail-box">
                             <div class="mail-text h-200">
-                                <div class="summernote">
+                                <textarea class="summernote" name="post">
                                     <h3>Hello Jonathan! </h3>
                                     dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's</strong> standard dummy text ever since the 1500s,
                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
                                     typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                                </div>
+                                </textarea>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
+                        @csrf
+
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <input type="submit" class="btn btn-success" value="submit">
+
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

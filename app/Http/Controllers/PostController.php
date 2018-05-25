@@ -12,10 +12,14 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($title)
     {
         //
-        return view('post.index');
+
+        $post = \App\Post::where('title',$title)->first();
+        
+
+        return view('post.index', compact('post'));
     }
 
     /**
@@ -37,6 +41,26 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
+        $cv = new \App\CountryVisa(); //country visa
+        $cv->country_id =  $request->country;
+        $cv->visa_type_id = $request->purpose;
+        $cv->rules = "null";
+        $cv->steps = "null";
+        $cv->save();
+
+        $post = new Post();
+        $post->title = $request->title;
+        $post->body = $request->post;
+        $post->tags = $request->tags;
+        $post->country_visa_id = $cv->id;
+        $post->save();
+
+
+
+
+
+        return redirect()->back();
+
     }
 
     /**
