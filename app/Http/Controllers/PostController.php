@@ -17,8 +17,6 @@ class PostController extends Controller
         //
 
         $post = \App\Post::where('title',$title)->first();
-        
-
         return view('post.index', compact('post'));
     }
 

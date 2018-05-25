@@ -97,11 +97,15 @@
     </a>
 </div>
 <section id="visa-type" class="container services">
+    @if (Session::has('error'))
+       <div class="alert alert-danger">{{ Session::get('error') }}</div>
+    @endif
     <div>
-        <form>
+        <form method="post" action="{{ route('landingtopost') }}">
+            @csrf
             <div class="form-group">
                 <label for="exampleInputEmail1">Country</label>
-                <select class="form-control m-b" name="account">
+                <select class="form-control m-b" name="country">
                     @foreach($countries as $country)
                         <option value={{$country->id}}>{{$country->name}}</option>
                     @endforeach
@@ -110,7 +114,7 @@
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Purpose</label>
-                <select class="form-control m-b" name="account">
+                <select class="form-control m-b" name="purpose">
                     @foreach($visatypes as $visatype)
                         <option value={{$visatype->id}}>{{$visatype->name}}</option>
                     @endforeach

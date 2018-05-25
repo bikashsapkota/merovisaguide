@@ -34,5 +34,24 @@ class HomeController extends Controller
         return view('welcome', compact('countries','visatypes'));
     }
 
+    public function landingToPost(Request $request){
+        $country = $request->country;
+        $visatype = $request->purpose;
+
+        $countryVisaPost = \App\CountryVisa::where('country_id',$country)
+                        ->join('posts','posts.country_visa_id','country_visas.id')
+
+                        ->where('visa_type_id', $visatype)
+                        ->first();
+
+        if($countryVisaPost == null){
+            return redirect('/#visa-type')->with('error','Particular Post Not found');
+        }
+
+        return redirect('/post/'.$countryVisaPost->title);
+
+
+    }
+
 
 }
