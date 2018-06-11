@@ -2,22 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Post;
+use App\Enquery;
 use Illuminate\Http\Request;
 
-class PostController extends Controller
+class EnqueryController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($title)
+    public function index()
     {
         //
-
-        $post = \App\Post::where('title',str_replace('-', ' ', $title))->first();
-        return view('post.index', compact('post'));
     }
 
     /**
@@ -39,35 +36,15 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
-        $cv = new \App\CountryVisa(); //country visa
-        $cv->country_id =  $request->country;
-        $cv->visa_type_id = $request->purpose;
-        $cv->rules = "null";
-        $cv->steps = "null";
-        $cv->save();
-
-        $post = new Post();
-        $post->title = $request->title;
-        $post->body = $request->post;
-        $post->tags = $request->tags;
-        $post->country_visa_id = $cv->id;
-        $post->save();
-
-
-
-
-
-        return redirect()->back();
-
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Post  $post
+     * @param  \App\Enquery  $enquery
      * @return \Illuminate\Http\Response
      */
-    public function show(Post $post)
+    public function show(Enquery $enquery)
     {
         //
     }
@@ -75,10 +52,10 @@ class PostController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Post  $post
+     * @param  \App\Enquery  $enquery
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
+    public function edit(Enquery $enquery)
     {
         //
     }
@@ -87,10 +64,10 @@ class PostController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Post  $post
+     * @param  \App\Enquery  $enquery
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(Request $request, Enquery $enquery)
     {
         //
     }
@@ -98,16 +75,11 @@ class PostController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Post  $post
+     * @param  \App\Enquery  $enquery
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Post $post)
+    public function destroy(Enquery $enquery)
     {
         //
-    }
-
-
-    public function getRecent(){
-        return Post::orderBy('created_at','desc')->take(10)->get();
     }
 }

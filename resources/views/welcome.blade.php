@@ -105,7 +105,7 @@
             @csrf
             <div class="form-group">
                 <label for="exampleInputEmail1">Country</label>
-                <select class="form-control m-b" name="country">
+                <select class="select2 form-control m-b" name="country">
                     @foreach($countries as $country)
                         <option value={{$country->id}}>{{$country->name}}</option>
                     @endforeach
@@ -114,7 +114,7 @@
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Purpose</label>
-                <select class="form-control m-b" name="purpose">
+                <select class="select2 form-control m-b" name="purpose">
                     @foreach($visatypes as $visatype)
                         <option value={{$visatype->id}}>{{$visatype->name}}</option>
                     @endforeach
@@ -874,9 +874,14 @@
 <script src="js/plugins/i18next/i18next.min.js"></script>
 
 
+<link href="/css/plugins/select2/select2.min.css" rel="stylesheet">
+<script src="/js/plugins/select2/select2.full.min.js"></script>
+
+
 <script>
 
     $(document).ready(function () {
+        $(".select2").select2();
 
 
         var updateOutput = function (e) {
@@ -964,4 +969,4 @@
 @include('layouts.enquiry');
 </body>
 </html>
-<!-- <script src="/js/chat.js"></script> -->
+<script src="/js/chat.js"></script>

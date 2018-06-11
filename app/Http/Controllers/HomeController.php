@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Country;
 use App\VisaType;
+use App\Post;
 
 class HomeController extends Controller
 {
@@ -48,9 +49,13 @@ class HomeController extends Controller
             return redirect('/#visa-type')->with('error','Particular Post Not found');
         }
 
-        return redirect('/post/'.$countryVisaPost->title);
+        return redirect('/post/'.str_replace(' ', '-', $countryVisaPost->title));
 
 
+    }
+
+    public function getRobot(){
+        return Post::all();
     }
 
 

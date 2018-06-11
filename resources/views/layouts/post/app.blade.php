@@ -20,6 +20,7 @@
     <link href="/css/style.css" rel="stylesheet">
 <!--  Custom style for mvg  -->
     <link href="/css/mvg.css" rel="stylesheet">
+    <script src="/js/jquery-3.1.1.min.js"></script>
 
 </head>
 <body id="page-top" class="article landing-page no-skin-config" >
@@ -46,7 +47,7 @@
 
 
     <!-- Mainly scripts -->
-    <script src="/js/jquery-3.1.1.min.js"></script>
+    
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
