@@ -288,28 +288,8 @@
 </section>
 
 
-<section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn">
-                <i class="fa fa-comment big-icon"></i>
-                <h1>
-                    What our users say
-                </h1>
-                <div class="testimonials-text">
-                    <i>"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."</i>
-                </div>
-                <small>
-                    <strong>12.02.2014 - Andy Smith</strong>
-                </small>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="comments gray-section" style="margin-top: 0">
+<section id="testimonials" class="comments gray-section" style="margin-top: 0">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -398,17 +378,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -432,17 +412,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -466,17 +446,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -501,17 +481,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -538,17 +518,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -572,17 +552,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -606,17 +586,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -641,17 +621,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -678,17 +658,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -709,20 +689,20 @@
                                     <div class="dd-handle">
                                         <span class="flags"><img src="img/flags/32/Malaysia.png" alt="flag"></span> &nbsp;&nbsp; MALAYSIA
                                     </div>
-                                    <ol class="dd-list">
+                                   <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -746,17 +726,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
@@ -781,17 +761,17 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-cog"></i></span> Student Visa
+                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-bolt"></i></span> Working Visa
+                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
                                             </div>
                                         </li>
                                         <li class="dd-item" data-id="4">
                                             <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-laptop"></i></span> Tourist Visa
+                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
                                             </div>
                                         </li>
                                     </ol>
