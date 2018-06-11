@@ -10,16 +10,16 @@
 
 }
 
-#nestable3 .dd-item > button {
+.dd .dd-item > button {
     font-family: FontAwesome;
     height: 34px;
     width: 33px;
     color: #c1c1c1;
 }
-#nestable3 .dd-item > button:before {
+.dd .dd-item > button:before {
     content: "\f067";
 }
-#nestable3 .dd-item > button[data-action="collapse"]:before {
+.dd .dd-item > button[data-action="collapse"]:before {
     content: "\f068";
 }
 
@@ -32,46 +32,13 @@
     /*box-sizing: border-box;*/
     /*-moz-box-sizing: border-box;*/
 /*}*/
-#nestable3 .dd-handle {
+.dd .dd-handle {
     color: inherit;
     border: 1px dashed #e7eaec;
     background: #f3f3f4;
     padding: 10px;
+    font-size: larger;
 }
-#nestable3 span.label {
-    margin-right: 10px;
-}
-
-/*#nestable3-output {*/
-    /*font-size: 12px;*/
-    /*padding: 25px;*/
-    /*box-sizing: border-box;*/
-    /*-moz-box-sizing: border-box;*/
-/*}*/
-
-/*.md-skin #nestable3-output {*/
-    /*font-family: 'Roboto', lucida grande, lucida sans unicode, helvetica, arial, sans-serif;*/
-/*}*/
-
-#nestable4 .dd-item > button {
-    font-family: FontAwesome;
-    height: 34px;
-    width: 33px;
-    color: #c1c1c1;
-}
-#nestable4 .dd-item > button:before {
-    content: "\f067";
-}
-#nestable4 .dd-item > button[data-action="collapse"]:before {
-    content: "\f068";
-}
-
-#nestable4 .dd-handle {
-    color: inherit;
-    border: 1px dashed #e7eaec;
-    background: #f3f3f4;
-    padding: 10px;
-}
-#nestable4 span.label {
+.dd span.label {
     margin-right: 10px;
 }
