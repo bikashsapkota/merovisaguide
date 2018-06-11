@@ -16,7 +16,7 @@ class PostController extends Controller
     {
         //
 
-        $post = \App\Post::where('title',$title)->first();
+        $post = \App\Post::where('title',str_replace('-', ' ', $title))->first();
         return view('post.index', compact('post'));
     }
 
@@ -104,5 +104,10 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         //
+    }
+
+
+    public function getRecent(){
+        return Post::orderBy('created_at','desc')->take(10)->get();
     }
 }
