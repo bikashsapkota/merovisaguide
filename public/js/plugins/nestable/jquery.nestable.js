@@ -249,40 +249,40 @@
 
         dragStart: function(e)
         {
-            var mouse    = this.mouse,
-                target   = $(e.target),
-                dragItem = target.closest(this.options.itemNodeName);
+            // var mouse    = this.mouse,
+            //     target   = $(e.target),
+            //     dragItem = target.closest(this.options.itemNodeName);
 
-            this.placeEl.css('height', dragItem.height());
+            // this.placeEl.css('height', dragItem.height());
 
-            mouse.offsetX = e.offsetX !== undefined ? e.offsetX : e.pageX - target.offset().left;
-            mouse.offsetY = e.offsetY !== undefined ? e.offsetY : e.pageY - target.offset().top;
-            mouse.startX = mouse.lastX = e.pageX;
-            mouse.startY = mouse.lastY = e.pageY;
+            // mouse.offsetX = e.offsetX !== undefined ? e.offsetX : e.pageX - target.offset().left;
+            // mouse.offsetY = e.offsetY !== undefined ? e.offsetY : e.pageY - target.offset().top;
+            // mouse.startX = mouse.lastX = e.pageX;
+            // mouse.startY = mouse.lastY = e.pageY;
 
-            this.dragRootEl = this.el;
+            // this.dragRootEl = this.el;
 
-            this.dragEl = $(document.createElement(this.options.listNodeName)).addClass(this.options.listClass + ' ' + this.options.dragClass);
-            this.dragEl.css('width', dragItem.width());
+            // this.dragEl = $(document.createElement(this.options.listNodeName)).addClass(this.options.listClass + ' ' + this.options.dragClass);
+            // this.dragEl.css('width', dragItem.width());
 
-            dragItem.after(this.placeEl);
-            dragItem[0].parentNode.removeChild(dragItem[0]);
-            dragItem.appendTo(this.dragEl);
+            // dragItem.after(this.placeEl);
+            // dragItem[0].parentNode.removeChild(dragItem[0]);
+            // dragItem.appendTo(this.dragEl);
 
-            $(document.body).append(this.dragEl);
-            this.dragEl.css({
-                'left' : e.pageX - mouse.offsetX,
-                'top'  : e.pageY - mouse.offsetY
-            });
-            // total depth of dragging item
-            var i, depth,
-                items = this.dragEl.find(this.options.itemNodeName);
-            for (i = 0; i < items.length; i++) {
-                depth = $(items[i]).parents(this.options.listNodeName).length;
-                if (depth > this.dragDepth) {
-                    this.dragDepth = depth;
-                }
-            }
+            // $(document.body).append(this.dragEl);
+            // this.dragEl.css({
+            //     'left' : e.pageX - mouse.offsetX,
+            //     'top'  : e.pageY - mouse.offsetY
+            // });
+            // // total depth of dragging item
+            // var i, depth,
+            //     items = this.dragEl.find(this.options.itemNodeName);
+            // for (i = 0; i < items.length; i++) {
+            //     depth = $(items[i]).parents(this.options.listNodeName).length;
+            //     if (depth > this.dragDepth) {
+            //         this.dragDepth = depth;
+            //     }
+            // }
         },
 
         dragStop: function(e)

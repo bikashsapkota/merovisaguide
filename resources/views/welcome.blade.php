@@ -105,7 +105,8 @@
             @csrf
             <div class="form-group">
                 <label for="exampleInputEmail1">Country</label>
-                <select class="select2 form-control m-b" name="country">
+                <select class="select2 form-control m-b" name="country" id="country">
+                    <option value=231>USA</option>
                     @foreach($countries as $country)
                         <option value={{$country->id}}>{{$country->name}}</option>
                     @endforeach
@@ -113,11 +114,9 @@
                 <small id="emailHelp" class="form-text text-muted">Destination Country.</small>
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Purpose</label>
-                <select class="select2 form-control m-b" name="purpose">
-                    @foreach($visatypes as $visatype)
-                        <option value={{$visatype->id}}>{{$visatype->name}}</option>
-                    @endforeach
+                <label for="exampleInputPassword1">Visa Type</label>
+                <select class="select form-control m-b" name="purpose" id="purpose">
+
                 </select>
             </div>
             
@@ -131,7 +130,7 @@
         <div class="col-sm-3">
             <h2>Need Passport in a hurry?</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <p><a class="navy-link" href="/post/Visa-Processinj" role="button">Details &raquo;</a></p>
         </div>
         <div class="col-sm-3">
             <h2>Mero Visa Guide Q/A?</h2>
@@ -219,9 +218,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -370,16 +366,17 @@
                 <div class="ibox ">
                     <div class="ibox-content">
                         <div class="dd" id="nestable2">
-                            <ol class="dd-list">
-                                <li class="dd-item noUi-dragable" data-id="1">
+                            <ol class="dd-list dd-nodrag">
+                                <li class="dd-item" data-id="1">
                                     <div class="dd-handle">
                                         <span class="flags"><img src="img/flags/32/United-States.png" alt="flag"></span> &nbsp;&nbsp; USA
                                     </div>
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
+                                            <a href="/asd"><div class="dd-handle">
                                                 <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
                                             </div>
+                                        </a>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
@@ -859,7 +856,6 @@
 
 
 <script>
-
     $(document).ready(function () {
         $(".select2").select2();
 
@@ -876,24 +872,8 @@
 
         // activate Nestable for list 2
         $('.dd').nestable({
-            group: 1,
-            maxDepth: 1
+            maxDepth: 0,
         }).nestable('collapseAll');
-
-
-        $('#nestable-menu').on('click', function (e) {
-            var target = $(e.target),
-                action = target.data('action');
-            if (action === 'expand-all') {
-                $('.dd').nestable('expandAll');
-            }
-            if (action === 'collapse-all') {
-                $('.dd').nestable('collapseAll');
-            }
-        });
-
-
-
 
 
         $('body').scrollspy({
@@ -944,6 +924,29 @@
 
     // Activate WOW.js plugin for animation on scrol
     new WOW().init();
+
+    $('#country').on('change',function(){
+        updateVisaOption(this.value)        
+    });
+
+    updateVisaOption(231)
+
+    function updateVisaOption(id){
+        url = '/api/visatype/'+id
+        console.log(url)
+        $.get(url,function(data){
+            options= ""
+            data.forEach(function(element) {
+                console.log(element)
+                options +='<option value='+element.visa_type_id+'>'+element.name+'</option>'
+            });
+
+            $("#purpose").html(options)
+
+        });
+    }
+
+
 
 </script>
 @include('layouts.enquiry');
