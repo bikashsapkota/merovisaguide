@@ -294,7 +294,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1>What our partners say</h1>
+                <h1>What our users say</h1>
                 <p>Donec sed odio dui. Etiam porta sem malesuada. </p>
             </div>
         </div>
@@ -800,15 +800,16 @@
         <div class="row m-b-lg">
             <div class="col-lg-3 col-lg-offset-3">
                 <address>
-                    <strong><span class="navy">Company name, Inc.</span></strong><br/>
-                    795 Folsom Ave, Suite 600<br/>
-                    San Francisco, CA 94107<br/>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                    <strong><span class="navy">Mero Visa Guide, Inc.</span></strong><br/>
+                    Kathmandu, Nepal<br/>
+                    <abbr title="Phone">P:</abbr> (+977) 456-7890
                 </address>
             </div>
             <div class="col-lg-4">
                 <p class="text-color">
-                    Consectetur adipisicing elit. Aut eaque, totam corporis laboriosam veritatis quis ad perspiciatis, totam corporis laboriosam veritatis, consectetur adipisicing elit quos non quis ad perspiciatis, totam corporis ea,
+                    Our Service is open 10 hours a day 6 days a week.
+                    Sunday to Friday
+                    9:00 A.M. - 7:00 P.M.
                 </p>
             </div>
         </div>
@@ -830,7 +831,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy; 2015 Company Name</strong><br/> consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <p><strong>&copy; 2018 Mero Visa Guide</strong><br/> All information and contents of this site and pages included within it are Copyrighted ©2018 by Mero Visa Guide Inc. Any use of material from this site without expressed consent from Mero Visa Guide is illegal and punishable by law. </p>
             </div>
         </div>
     </div>
