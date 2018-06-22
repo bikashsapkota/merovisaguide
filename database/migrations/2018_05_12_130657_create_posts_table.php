@@ -19,8 +19,7 @@ class CreatePostsTable extends Migration
             $table->text('body');
             $table->string('tags');
             $table->timestamps();
-
-            $table->integer('country_visa_id');
+            $table->integer('country_visa_id')->nullable();
         });
     }
 

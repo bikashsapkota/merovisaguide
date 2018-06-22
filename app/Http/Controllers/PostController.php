@@ -39,26 +39,28 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
-        $cv = new \App\CountryVisa(); //country visa
-        $cv->country_id =  $request->country;
-        $cv->visa_type_id = $request->purpose;
-        $cv->rules = "null";
-        $cv->steps = "null";
-        $cv->save();
 
         $post = new Post();
+
+        if($request->country != null &&  $request->purpose !=null){
+            $cv = new \App\CountryVisa(); //country visa
+            $cv->country_id =  $request->country;
+            $cv->visa_type_id = $request->purpose;
+            $cv->rules = "null";
+            $cv->steps = "null";
+            $cv->save();
+            $post->country_visa_id = $cv->id;
+        }else{
+            $post->country_visa_id = null;
+        }
+        
         $post->title = $request->title;
         $post->body = $request->post;
         $post->tags = $request->tags;
-        $post->country_visa_id = $cv->id;
+        
         $post->save();
 
-
-
-
-
         return redirect()->back();
-
     }
 
     /**
@@ -109,5 +111,13 @@ class PostController extends Controller
 
     public function getRecent(){
         return Post::orderBy('created_at','desc')->take(10)->get();
+    }
+
+    public function getVisatype($country){
+        return \App\CountryVisa::join('visa_types','country_visas.visa_type_id','visa_types.id')
+                            ->select('visa_type_id','name')
+                            ->where('country_visas.country_id',$country)
+                            ->get()
+                            ->unique('visa_type_id');
     }
 }

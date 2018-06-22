@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Country;
 use App\VisaType;
 use App\Post;
+use App\CountryVisa;
 
 class HomeController extends Controller
 {
@@ -30,9 +31,8 @@ class HomeController extends Controller
     }
     
     public function landing(){
-        $countries = Country::all();
-        $visatypes = VisaType::all();
-        return view('welcome', compact('countries','visatypes'));
+        $countries = CountryVisa::join('countries','country_visas.country_id','countries.id')->get()->unique('country_id');
+        return view('welcome', compact('countries'));
     }
 
     public function landingToPost(Request $request){
