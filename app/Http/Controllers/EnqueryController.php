@@ -36,6 +36,17 @@ class EnqueryController extends Controller
     public function store(Request $request)
     {
         //
+        $enquery = new Enquery();
+        $enquery->full_name = $request->full_name;
+        $enquery->phone_no = $request->phone_no;
+        $enquery->email = $request->email;
+        $enquery->address = $request->address;
+        $enquery->country = $request->country;
+        $enquery->purpose = $request->purpose;
+        $enquery->message = $request->message;
+        $enquery->status =  $request->status;
+        $enquery->save();
+
     }
 
     /**

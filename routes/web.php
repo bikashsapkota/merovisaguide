@@ -24,4 +24,5 @@ Route::post('/admin/post/store','PostController@store')->name('admin.store_post'
 Route::post('/landingtopost','HomeController@landingtopost')->name('landingtopost');
 Route::get('/robot.txt','HomeController@getrobot');
 Route::get('/sitemap.xml','HomeController@getsitemap');
+Route::post('/enquiry','EnqueryController@store')->name('enquery');
 

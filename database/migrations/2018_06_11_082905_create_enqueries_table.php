@@ -19,8 +19,10 @@ class CreateEnqueriesTable extends Migration
             $table->string('phone_no')->nullable();
             $table->string('email')->nullable();
             $table->string('address');
-            $table->string('subject');
+            $table->integer('country');
+            $table->string('purpose');
             $table->text('message');
+            $table->string('status')->nullable();
             $table->timestamps();
         });
     }
