@@ -26,7 +26,7 @@
 										<div class="form-group"><label>Contact Address</label> <input type="text" placeholder="Enter your current address" class="form-control"  name="address"></div>
 										<!-- <div class="form-group"><label>Subject</label> <input type="text" placeholder="Enter subject of enquiry" class="form-control"></div> -->
 										<div class="form-group"><label>Country</label> 
-											<select name="country" class="form-control">
+											<select name="country" class="form-control select2-c">
 												@foreach($countr as $c)
 													<option value="{{$c->id}}">{{$c->name}}</option>
 												@endforeach
