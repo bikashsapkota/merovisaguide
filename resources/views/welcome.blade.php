@@ -57,7 +57,7 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Before being cheated <br/>
+                    <h1>Before being misguided <br/>
                         consult the experts,<br/>
                         </h1>
                     <p>Consult Expert in this field</p>
@@ -77,7 +77,7 @@
         <div class="item">
             <div class="container">
                 <div class="carousel-caption blank">
-                    <h1>Before being cheated <br/>
+                    <h1>Before being misguided <br/>
                         consult the experts,<br/>
                     </h1>
                     <p>Consult Expert in this field</p>
@@ -131,24 +131,101 @@
 <section id="features" class="container services">
     <div class="row">
         <div class="col-sm-3">
-            <h2>Need Passport in a hurry?</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="/post/Visa-Processinj" role="button">Details &raquo;</a></p>
+            <div class="grid-item" style="margin-bottom: 25px; width: 300px">
+                <div class="ibox" style="margin-bottom: 0;">
+                    <div class="ibox-content">
+                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
+                            Visas
+                        </h3>
+                        <ul class="list-group clear-list" style="font-size: medium; text-align: center">
+                            <li class="list-group-item fist-item">
+                                <a href="#">Parent Visa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">PR process for Canada</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Business Visa for Europe</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Australian Student Visa</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-sm-3">
-            <h2>Mero Visa Guide Q/A?</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <div class="grid-item" style="margin-bottom: 25px; width: 300px">
+                <div class="ibox" style="margin-bottom: 0;">
+                    <div class="ibox-content" style="background-color: #f4f4f4">
+                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
+                            Work
+                        </h3>
+                        <ul class="list-group clear-list" style="font-size: medium; text-align: center">
+                            <li class="list-group-item fist-item">
+                                <a href="#">Job Search Service with immigration process for opted country</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Working Visa Process for Middle East</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Job Search service for Students in Australia</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-sm-3">
-            <h2>Corporate Accounts and Travel Industry</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <div class="grid-item" style="margin-bottom: 25px; width: 300px">
+                <div class="ibox" style="margin-bottom: 0;">
+                    <div class="ibox-content">
+                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
+                            Migrate
+                        </h3>
+                        <ul class="list-group clear-list" style="font-size: medium; text-align: center">
+                            <li class="list-group-item fist-item">
+                                <a href="#">Application Review by RMA</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Australia EOI + DIBP</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">General Skilled Migrant Visa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Canada New Migrant PR application</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-sm-3">
-            <h2>Advanced Forms</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <div class="grid-item" style="margin-bottom: 25px; width: 300px">
+                <div class="ibox" style="margin-bottom: 0;">
+                    <div class="ibox-content" style="background-color: #f4f4f4">
+                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
+                            Others
+                        </h3>
+                        <ul class="list-group clear-list" style="font-size: medium; text-align: center">
+                            <li class="list-group-item fist-item">
+                                <a href="#">Application Process for Event Visas</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Seminar/Conference Visas</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Medical Visa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Independent Visa</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -261,27 +338,25 @@
                         </div>
                     </div>
                 </div>
-<!--                <div class="col-md-4">-->
-<!--                    <div class="ibox">-->
-<!--                        <div class="ibox-content product-box">-->
-<!---->
-<!--                            <div class="product-desc">-->
-<!--                                <a href="#" class="product-name"> Visa Guidance</a>-->
-<!---->
-<!---->
-<!--                                <div class="small m-t-xs">-->
-<!--                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.-->
-<!--                                </div>-->
-<!--                                <div class="m-t text-right">-->
-<!---->
-<!--                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div> -->
-            </div>
+                <div class="col-md-4">
+                    <div class="ibox">
+                        <div class="ibox-content product-box">
 
+                            <div class="product-desc">
+                                <a href="#" class="product-name"> Documentation</a>
+
+
+                                <div class="small m-t-xs">
+                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                </div>
+                                <div class="m-t text-right">
+
+                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
 
 </section>
@@ -294,7 +369,6 @@
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
                 <h1>What our users say</h1>
-                <p>Donec sed odio dui. Etiam porta sem malesuada. </p>
             </div>
         </div>
 
@@ -303,14 +377,10 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="ibox">
-                        <h4 class="text-center m">
-                            Basic example of slick carousel
-                        </h4>
                         <div class="slick_demo_1">
-
                             <div>
                                 <div class="ibox-content">
-                                    <h2>Slide 1</h2>
+                                    <h2>Ramesh Sharma</h2>
                                     <div class="profile-image">
                                         <img src="img/a4.jpg" class="img-circle circle-border m-b-md" alt="profile">
                                     </div>
@@ -332,7 +402,7 @@
                             </div>
                             <div>
                                 <div class="ibox-content">
-                                    <h2>Slide 2</h2>
+                                    <h2>Harry Johnson</h2>
                                     <div class="profile-image">
                                         <img src="img/a2.jpg" class="img-circle circle-border m-b-md" alt="profile">
                                     </div>
@@ -354,7 +424,7 @@
                             </div>
                             <div>
                                 <div class="ibox-content">
-                                    <h2>Slide 3</h2>
+                                    <h2>Sita Kumari Dhakal</h2>
                                     <div class="profile-image">
                                         <img src="img/a3.jpg" class="img-circle circle-border m-b-md" alt="profile">
                                     </div>
@@ -887,7 +957,7 @@
 
 <!-- slick carousel-->
 <script src="js/plugins/slick/slick.min.js"></script>
-
+<script src="js/plugins/masonary/masonry.pkgd.min.js"></script>
 
 <script>
     $(document).ready(function () {

@@ -120,4 +120,5 @@ class PostController extends Controller
                             ->get()
                             ->unique('visa_type_id');
     }
+    
 }
