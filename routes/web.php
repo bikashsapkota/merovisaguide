@@ -25,4 +25,5 @@ Route::get('/robot.txt','HomeController@getrobot');
 Route::get('/sitemap.xml','HomeController@getsitemap');
 Route::post('/enquiry','EnqueryController@store')->name('enquery');
 
+Route::get('/faqs','FaqController@index')->name('faqs');
 
