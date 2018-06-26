@@ -16,7 +16,7 @@ class FaqController extends Controller
     {
         //
         $faqs = Faq::all();
-        return view('faqs',compact('faqs'));
+        return view('faq/faqs',compact('faqs'));
     }
 
     /**

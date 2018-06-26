@@ -155,6 +155,7 @@ class PostController extends Controller
                             ->unique('visa_type_id');
     }
 
+
     public function allposts()
     {
         //
