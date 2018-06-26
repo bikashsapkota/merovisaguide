@@ -17,9 +17,13 @@ Route::get('/', 'HomeController@landing');
 
 //imported
 Route::get('/admin', 'AdminActionController@index')->name("admin.index");
+Route::get('/admin/posts','PostController@allposts');
+Route::get('/admin/post/delete/{post}','PostController@destroy');
+Route::get('/admin/post/edit/{post}','PostController@edit');
+
 Route::get('/post/{title}','PostController@index')->name('post.show');
 
-
+Route::post('/admin/post/update','PostController@update')->name('admin.update_post');
 Route::post('/admin/post/store','PostController@store')->name('admin.store_post');
 Route::post('/landingtopost','HomeController@landingtopost')->name('landingtopost');
 Route::get('/robot.txt','HomeController@getrobot');

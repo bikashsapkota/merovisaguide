@@ -24,6 +24,9 @@
             <li class="false">
                 <a href="{{ url('/minor') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Minor view</span> </a>
             </li>
+            <li class="false">
+                <a href="{{ url('/admin/posts') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Manage Posts</span> </a>
+            </li>
         </ul>
 
     </div>

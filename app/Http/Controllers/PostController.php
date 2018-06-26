@@ -82,7 +82,16 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        $countries = \App\Country::all();
+        $purposes = \App\VisaType::all();
+
+        $cv = Post::join('country_visas','posts.country_visa_id','country_visas.id')
+                        ->where('posts.id',$post->id)
+                        ->select('country_id','visa_type_id','country_visas.id as cv_id')
+                        ->first();
+
+        //return $cv;
+        return view('post.edit', compact('countries','purposes','post','cv'));
     }
 
     /**
@@ -92,9 +101,32 @@ class PostController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(Request $request)    
     {
         //
+        $post = Post::find($request->post_id);
+
+
+        if($request->country != null &&  $request->purpose !=null){
+            $cv =  \App\CountryVisa::find($request->cv_id); //country visa
+            $cv->country_id =  $request->country;
+            $cv->visa_type_id = $request->purpose;
+            $cv->rules = "null";
+            $cv->steps = "null";
+            $cv->save();
+            $post->country_visa_id = $cv->id;
+        }else{
+            $post->country_visa_id = null;
+        }
+        
+        $post->title = $request->title;
+        $post->body = $request->post;
+        $post->tags = $request->tags;
+        
+        $post->save();
+
+        return redirect()->back();
+
     }
 
     /**
@@ -106,6 +138,8 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         //
+        //$post->delete();
+        return redirect()->back()->withMessage('Post Deleted');
     }
 
 
@@ -119,5 +153,12 @@ class PostController extends Controller
                             ->where('country_visas.country_id',$country)
                             ->get()
                             ->unique('visa_type_id');
+    }
+
+    public function allposts()
+    {
+        //
+        $posts = \App\Post::all();
+        return view('post.allpost',compact('posts'));
     }
 }
