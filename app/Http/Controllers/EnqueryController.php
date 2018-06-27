@@ -15,6 +15,10 @@ class EnqueryController extends Controller
     public function index()
     {
         //
+        $enqueries = Enquery::all();
+        //return $enqueries;
+
+        return view('enquery.index',compact('enqueries'));
     }
 
     /**

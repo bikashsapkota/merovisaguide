@@ -31,6 +31,6 @@ Route::post('/landingtopost','HomeController@landingtopost')->name('landingtopos
 Route::get('/robot.txt','HomeController@getrobot');
 Route::get('/sitemap.xml','HomeController@getsitemap');
 Route::post('/enquiry','EnqueryController@store')->name('enquery');
-
+Route::get('/enqueries','EnqueryController@index')->name('enqueries');
 Route::get('/faqs','FaqController@index')->name('faqs');
 

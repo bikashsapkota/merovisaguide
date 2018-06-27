@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PostController extends Controller
 {
@@ -139,6 +140,10 @@ class PostController extends Controller
     {
         //
         //$post->delete();
+        Mail::send('errors.503',[], function($message){
+            $message->to('sapkotabikash194@gmail.com')->subject('test');
+        });
+
         return redirect()->back()->withMessage('Post Deleted');
     }
 

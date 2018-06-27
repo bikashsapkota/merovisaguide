@@ -19,13 +19,16 @@
                 </div>
             </li>
             <li class="true">
-                <a href="{{ url('/') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Main view</span></a>
+                <a href="{{ url('/admin') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Main view</span></a>
             </li>
             <li class="false">
                 <a href="{{ url('/minor') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Minor view</span> </a>
             </li>
             <li class="false">
                 <a href="{{ url('/admin/posts') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Manage Posts</span> </a>
+            </li>
+            <li class="false">
+                <a href="{{ url('/enqueries') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Enqueries</span> </a>
             </li>
         </ul>
 
