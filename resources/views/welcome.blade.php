@@ -40,8 +40,8 @@
                         <li><a class="page-scroll" href="#page-top">Home</a></li>
                         <li><a class="page-scroll" href="#visa-type">Visa Type</a></li>
                         <li><a class="page-scroll" href="#ourservices">Our Services</a></li>
-                        <li><a class="page-scroll" href="#testimonials">Testimonials</a></li>
                         <li><a class="page-scroll" href="#pricing">Country</a></li>
+                        <li><a class="page-scroll" href="#testimonials">Testimonials</a></li>
                         <li><a class="page-scroll" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -129,26 +129,29 @@
 </section>
 
 <section id="features" class="container services">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Visa Type</h1>
+        </div>
+    </div>
     <div class="row">
         <div class="col-sm-3">
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content">
-                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
-                            Visas
-                        </h3>
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#">Parent Visa</a>
+                                <a href="#" class="product-name">Parents Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">PR process for Canada</a>
+                                <a href="#" class="product-name">Student Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Business Visa for Europe</a>
+                                <a href="#" class="product-name">Independent (Spouse) Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Australian Student Visa</a>
+                                <a href="#" class="product-name">Tourist Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -159,18 +162,18 @@
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content" style="background-color: #f4f4f4">
-                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
-                            Work
-                        </h3>
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#">Job Search Service with immigration process for opted country</a>
+                                <a href="#" class="product-name">Medical Treatment Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Working Visa Process for Middle East</a>
+                                <a href="#" class="product-name">Conference/Seminar Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Job Search service for Students in Australia</a>
+                                <a href="#" class="product-name">Work (High Skilled) Visa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="product-name">Event/Exhibition Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -181,21 +184,18 @@
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content">
-                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
-                            Migrate
-                        </h3>
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#">Application Review by RMA</a>
+                                <a href="#" class="product-name">Diplomatic Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Australia EOI + DIBP</a>
+                                <a href="#" class="product-name">Business Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">General Skilled Migrant Visa</a>
+                                <a href="#" class="product-name">Immigration Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Canada New Migrant PR application</a>
+                                <a href="#" class="product-name">Temporary Stay Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -206,21 +206,18 @@
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content" style="background-color: #f4f4f4">
-                        <h3 class="font-bold" style="text-align: center; font-size: 23px; color: #37b394">
-                            Others
-                        </h3>
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#">Application Process for Event Visas</a>
+                                <a href="#" class="product-name"></a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Seminar/Conference Visas</a>
+                                <a href="#" class="product-name">Student Guardian Visa </a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Medical Visa</a>
+                                <a href="#" class="product-name">Prospective Marriage Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#">Independent Visa</a>
+                                <a href="#" class="product-name">Aged Parent Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -361,98 +358,6 @@
 
 </section>
 
-
-
-<section id="testimonials" class="comments gray-section" style="margin-top: 0">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>What our users say</h1>
-            </div>
-        </div>
-
-        <div class="wrapper wrapper-content">
-
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="ibox">
-                        <div class="slick_demo_1">
-                            <div>
-                                <div class="ibox-content">
-                                    <h2>Ramesh Sharma</h2>
-                                    <div class="profile-image">
-                                        <img src="img/a4.jpg" class="img-circle circle-border m-b-md" alt="profile">
-                                    </div>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="ibox-content">
-                                    <h2>Harry Johnson</h2>
-                                    <div class="profile-image">
-                                        <img src="img/a2.jpg" class="img-circle circle-border m-b-md" alt="profile">
-                                    </div>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="ibox-content">
-                                    <h2>Sita Kumari Dhakal</h2>
-                                    <div class="profile-image">
-                                        <img src="img/a3.jpg" class="img-circle circle-border m-b-md" alt="profile">
-                                    </div>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        
-</section>
-
 <section id="pricing" class="pricing">
     <div class="container">
         <div class="row m-b-lg">
@@ -474,9 +379,9 @@
                                     <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <a href="/asd"><div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </a>
+                                                    <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
+                                                </div>
+                                            </a>
                                         </li>
                                         <li class="dd-item" data-id="3">
                                             <div class="dd-handle">
@@ -786,7 +691,7 @@
                                     <div class="dd-handle">
                                         <span class="flags"><img src="img/flags/32/Malaysia.png" alt="flag"></span> &nbsp;&nbsp; MALAYSIA
                                     </div>
-                                   <ol class="dd-list">
+                                    <ol class="dd-list">
                                         <li class="dd-item" data-id="2">
                                             <div class="dd-handle">
                                                 <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
@@ -883,6 +788,97 @@
         </div>
 
     </div>
+</section>
+
+
+<section id="testimonials" class="comments gray-section" style="margin-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>What our users say</h1>
+            </div>
+        </div>
+
+        <div class="wrapper wrapper-content">
+
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="ibox">
+                        <div class="slick_demo_1">
+                            <div>
+                                <div class="ibox-content">
+                                    <h2>Ramesh Sharma</h2>
+                                    <div class="profile-image">
+                                        <img src="img/a4.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="ibox-content">
+                                    <h2>Harry Johnson</h2>
+                                    <div class="profile-image">
+                                        <img src="img/a2.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="ibox-content">
+                                    <h2>Sita Kumari Dhakal</h2>
+                                    <div class="profile-image">
+                                        <img src="img/a3.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book. It has survived not only five centuries, but also the leap.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
 </section>
 
 <section id="contact" class="gray-section contact">

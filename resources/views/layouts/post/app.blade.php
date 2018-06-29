@@ -25,7 +25,7 @@
 </head>
 <body id="page-top" class="article landing-page no-skin-config" >
     <!-- Wrapper-->
-    <div id="wrapper" class="post">
+    <div id="wrapper" class="post" style="background-color: #f3f3f4">
 
         <!-- Navigation -->
         @include('layouts.post.topnavbar')
