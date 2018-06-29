@@ -15,7 +15,7 @@
                         <li><a class="page-scroll" href="/#visa-type">Visa Type</a></li>
                         <li><a class="page-scroll" href="/#ourservices">Our Services</a></li>
                         <li><a class="page-scroll" href="/#testimonials">Testimonials</a></li>
-                        <li><a class="page-scroll" href="/#pricing">Pricing</a></li>
+                        <li><a class="page-scroll" href="/#pricing">Country</a></li>
                         <li><a class="page-scroll" href="/#contact">Contact</a></li>
                     </ul>
                 </div>
