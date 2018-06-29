@@ -370,33 +370,20 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable2">
-                            <ol class="dd-list dd-nodrag">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/United-States.png" alt="flag"></span> &nbsp;&nbsp; USA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <a href="/asd"><div class="dd-handle">
-                                                    <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
+                        <a href="country">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/United-States.png" alt="flag"></span> &nbsp;&nbsp; USA
+                            </div>
+                        </a>
 
-                            </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Australia.png" alt="flag"></span> &nbsp;&nbsp; AUSTRALIA
                         </div>
 
                     </div>
@@ -405,103 +392,18 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable3">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Australia.png" alt="flag"></span> &nbsp;&nbsp; AUSTRALIA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Canada.png" alt="flag"></span> &nbsp;&nbsp; CANADA
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable4">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Canada.png" alt="flag"></span> &nbsp;&nbsp; CANADA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/New-Zealand.png" alt="flag"></span> &nbsp;&nbsp; NEW ZEALAND
                         </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ibox ">
-
-                    <div class="ibox-content">
-                        <div class="dd" id="nestable5">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/New-Zealand.png" alt="flag"></span> &nbsp;&nbsp; NEW ZEALAND
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -511,102 +413,27 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable5">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Denmark.png" alt="flag"></span> &nbsp;&nbsp; DENMARK
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Denmark.png" alt="flag"></span> &nbsp;&nbsp; DENMARK
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable6">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/United-Kingdom.png" alt="flag"></span> &nbsp;&nbsp; United Kingdom
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/United-Kingdom.png" alt="flag"></span> &nbsp;&nbsp; United Kingdom
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable7">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Germany.png" alt="flag"></span> &nbsp;&nbsp; GERMANY
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Germany.png" alt="flag"></span> &nbsp;&nbsp; GERMANY
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -614,34 +441,9 @@
                 <div class="ibox ">
 
                     <div class="ibox-content">
-                        <div class="dd" id="nestable8">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Norway.png" alt="flag"></span> &nbsp;&nbsp; NORWAY
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Norway.png" alt="flag"></span> &nbsp;&nbsp; NORWAY
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -651,102 +453,27 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable2">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/United-Arab-Emirates.png" alt="flag"></span> &nbsp;&nbsp; UAE
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/United-Arab-Emirates.png" alt="flag"></span> &nbsp;&nbsp; UAE
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable3">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Malaysia.png" alt="flag"></span> &nbsp;&nbsp; MALAYSIA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Malaysia.png" alt="flag"></span> &nbsp;&nbsp; MALAYSIA
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd" id="nestable4">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/China.png" alt="flag"></span> &nbsp;&nbsp; CHINA
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/China.png" alt="flag"></span> &nbsp;&nbsp; CHINA
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -754,34 +481,9 @@
                 <div class="ibox ">
 
                     <div class="ibox-content">
-                        <div class="dd" id="nestable5">
-                            <ol class="dd-list">
-                                <li class="dd-item" data-id="1">
-                                    <div class="dd-handle">
-                                        <span class="flags"><img src="img/flags/32/Singapore.png" alt="flag"></span> &nbsp;&nbsp; SINGAPORE
-                                    </div>
-                                    <ol class="dd-list">
-                                        <li class="dd-item" data-id="2">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> Student Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="3">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-briefcase"></i></span> Working Visa
-                                            </div>
-                                        </li>
-                                        <li class="dd-item" data-id="4">
-                                            <div class="dd-handle">
-                                                <span class="label label-info"><i class="fa fa-plane"></i></span> Tourist Visa
-                                            </div>
-                                        </li>
-                                    </ol>
-                                </li>
-
-                            </ol>
+                        <div class="dd-handle">
+                            <span class="flags"><img src="img/flags/32/Singapore.png" alt="flag"></span> &nbsp;&nbsp; SINGAPORE
                         </div>
-
                     </div>
                 </div>
             </div>
