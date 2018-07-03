@@ -370,7 +370,7 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <a href="country">
+                        <a href="/country/United-States">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/United-States.png" alt="flag"></span> &nbsp;&nbsp; USA
                             </div>
@@ -382,28 +382,33 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Australia.png" alt="flag"></span> &nbsp;&nbsp; AUSTRALIA
-                        </div>
-
+                        <a href="/country/Australia">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Australia.png" alt="flag"></span> &nbsp;&nbsp; AUSTRALIA
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Canada.png" alt="flag"></span> &nbsp;&nbsp; CANADA
-                        </div>
+                        <a href="/Canada">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Canada.png" alt="flag"></span> &nbsp;&nbsp; CANADA
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/New-Zealand.png" alt="flag"></span> &nbsp;&nbsp; NEW ZEALAND
-                        </div>
+                        <a href="/New-Zealand">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/New-Zealand.png" alt="flag"></span> &nbsp;&nbsp; NEW ZEALAND
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -413,27 +418,33 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Denmark.png" alt="flag"></span> &nbsp;&nbsp; DENMARK
-                        </div>
+                        <a href="/Denmark">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Denmark.png" alt="flag"></span> &nbsp;&nbsp; DENMARK
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/United-Kingdom.png" alt="flag"></span> &nbsp;&nbsp; United Kingdom
-                        </div>
+                        <a href="/United-Kingdom">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/United-Kingdom.png" alt="flag"></span> &nbsp;&nbsp; United Kingdom
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Germany.png" alt="flag"></span> &nbsp;&nbsp; GERMANY
-                        </div>
+                        <a href="/Germany">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Germany.png" alt="flag"></span> &nbsp;&nbsp; GERMANY
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -441,9 +452,11 @@
                 <div class="ibox ">
 
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Norway.png" alt="flag"></span> &nbsp;&nbsp; NORWAY
-                        </div>
+                        <a href="/Norway">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Norway.png" alt="flag"></span> &nbsp;&nbsp; NORWAY
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

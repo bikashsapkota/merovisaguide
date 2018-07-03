@@ -34,5 +34,6 @@ Route::post('/enquiry','EnqueryController@store')->name('enquery');
 Route::get('/enqueries','EnqueryController@index')->name('enqueries');
 Route::get('/faqs','FaqController@index')->name('faqs');
 
-Route::get('/country','CountryVisaController@index')->name('country');
+//Route::get('/country','CountryVisaController@index')->name('country');
+Route::get('/country/{country}', 'HomeController@showVisatype');
 
