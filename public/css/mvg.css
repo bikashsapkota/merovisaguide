@@ -42,3 +42,15 @@
 .dd span.label {
     margin-right: 10px;
 }
+
+.footer-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #676a6c;
+    display: flex;
+    margin: 2px 0 7px 0;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: #1ab394;
+}
