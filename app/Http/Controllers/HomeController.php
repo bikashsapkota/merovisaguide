@@ -60,5 +60,18 @@ class HomeController extends Controller
         return Post::all();
     }
 
+    public function showVisatype($country){
+        $name = str_replace('-', ' ', $country);
+        //$coun = Country::where('name',$name)->first();
+
+        $visatypes = CountryVisa::join('countries','countries.id','country_visas.country_id')
+                    ->where('countries.name', $name)
+                    ->join('visa_types','country_visas.visa_type_id','visa_types.id')
+                    ->select('visa_types.name','visa_types.id')
+                    ->get();
+        return view('country.index',compact('visatypes', 'name'));
+
+    }
+
 
 }
