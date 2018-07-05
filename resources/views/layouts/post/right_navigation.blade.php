@@ -2,7 +2,7 @@
     <h3 class="theme-color-text">Recent Posts</h3>
 
     <ul class="list-group clear-list">
-       
+
     </ul>
     <div class="text-center m-t-md">
         <a href="#" class="btn btn-xs btn-primary">More</a>

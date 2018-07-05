@@ -20,6 +20,7 @@
     <link href="/css/style.css" rel="stylesheet">
 <!--  Custom style for mvg  -->
     <link href="/css/mvg.css" rel="stylesheet">
+    
     <script src="/js/jquery-3.1.1.min.js"></script>
 
 </head>
@@ -56,6 +57,7 @@
     <script src="/js/inspinia.js"></script>
     <script src="/js/plugins/pace/pace.min.js"></script>
     <script src="/js/plugins/wow/wow.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
 
 
     <script>
