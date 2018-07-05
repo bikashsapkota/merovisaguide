@@ -145,7 +145,7 @@
                                 <a href="#" class="product-name">Parents Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Student Visa</a>
+                                <a href="/visatypes/student" class="product-name">Student Visa</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="#" class="product-name">Independent (Spouse) Visa</a>
