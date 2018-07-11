@@ -60,10 +60,7 @@
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
-
-                    <h3 style="text-align: center">
-                        WHY MVG?
-                    </h3>
+                    
                     <p style="text-align: justify">
                          Incredible Visa Facilitation </br>
                          Facilitation of Booking appointment with Embassy</br>
@@ -87,9 +84,6 @@
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
-                    <h3 style="text-align: center">
-                        WHY MVG?
-                    </h3>
                     <p style="text-align: justify">
                          Incredible Visa Facilitation </br>
                          Facilitation of Booking appointment with Embassy</br>
