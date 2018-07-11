@@ -61,7 +61,7 @@
                         consult the experts<br/>
                     </h1>
 
-                    <p style="text-align: justify">
+                    <p style="text-align: justify; margin-top: 10%">
                         - Incredible Visa Facilitation </br>
                         - Facilitation of Booking appointment with Embassy</br>
                         - Increase chances of Visa approval with merovisaguide.com expertise </br>
@@ -80,11 +80,11 @@
         </div>
         <div class="item">
             <div class="container">
-                <div class="carousel-caption blank">
+                <div class="carousel-caption ">
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
-                    <p style="text-align: justify">
+                    <p style="text-align: justify; margin-top: 10%">
                         - Incredible Visa Facilitation </br>
                         - Facilitation of Booking appointment with Embassy</br>
                         - Increase chances of Visa approval with merovisaguide.com expertise </br>
