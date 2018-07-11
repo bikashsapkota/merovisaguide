@@ -74,4 +74,18 @@ class HomeController extends Controller
     }
 
 
+    public function showCountry($country){
+        $name = str_replace('-', ' ', $country);
+        //$coun = Country::where('name',$name)->first();
+
+        $visatypes = CountryVisa::join('countries','countries.id','country_visas.country_id')
+                    ->join('visa_types','country_visas.visa_type_id','visa_types.id')
+                    ->where('visa_types.name', $name)
+                    ->select('countries.name','countries.id')
+                    ->get();
+        return view('country.visatype',compact('visatypes', 'name'));
+
+    }
+
+
 }
