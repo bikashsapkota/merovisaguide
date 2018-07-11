@@ -60,12 +60,12 @@
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
-                    
+
                     <p style="text-align: justify">
-                         Incredible Visa Facilitation </br>
-                         Facilitation of Booking appointment with Embassy</br>
-                         Increase chances of Visa approval with merovisaguide.com expertise </br>
-                         Real time Visa updates and news
+                        - Incredible Visa Facilitation </br>
+                        - Facilitation of Booking appointment with Embassy</br>
+                        - Increase chances of Visa approval with merovisaguide.com expertise </br>
+                        - Real time Visa updates and news
                     </p>
 
                     <p>
@@ -85,10 +85,10 @@
                         consult the experts<br/>
                     </h1>
                     <p style="text-align: justify">
-                         Incredible Visa Facilitation </br>
-                         Facilitation of Booking appointment with Embassy</br>
-                         Increase chances of Visa approval with merovisaguide.com expertise </br>
-                         Real time Visa updates and news
+                        - Incredible Visa Facilitation </br>
+                        - Facilitation of Booking appointment with Embassy</br>
+                        - Increase chances of Visa approval with merovisaguide.com expertise </br>
+                        - Real time Visa updates and news
                     </p>
                     <p>
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
