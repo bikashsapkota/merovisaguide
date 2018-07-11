@@ -61,6 +61,15 @@
                     <li><a class="footer-link" href=""> Documentation</a></li>
                 </ul>
             </div>
+            <div class="col-lg-3">
+                <ul class="product-desc list-unstyled">
+                    <u style="font-size: 18px">WHY MVG?</u></br></br>
+                    <li><a class="footer-link" href=""> Incredible Visa Facilitation</a></li>
+                    <li><a class="footer-link" href=""> Facilitation of Booking appointment with Embassy</a></li>
+                    <li><a class="footer-link" href=""> Increase chances of Visa approval with MVG expertise</a></li>
+                    <li><a class="footer-link" href=""> Real time Visa updates and news</a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="row">

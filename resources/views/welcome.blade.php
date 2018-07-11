@@ -57,10 +57,20 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Before being misguided <br/>
-                        consult the experts,<br/>
-                        </h1>
-                    <p>Consult Expert in this field</p>
+                    <h1>Before being misguided, <br/>
+                        consult the experts<br/>
+                    </h1>
+
+                    <h3 style="text-align: center">
+                        WHY MVG?
+                    </h3>
+                    <p style="text-align: justify">
+                        1. Incredible Visa Facilitation </br>
+                        2. Facilitation of Booking appointment with Embassy</br>
+                        3. Increase chances of Visa approval with merovisaguide.com expertise </br>
+                        4. Real time Visa updates and news
+                    </p>
+
                     <p>
 <!--                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>-->
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
@@ -77,10 +87,18 @@
         <div class="item">
             <div class="container">
                 <div class="carousel-caption blank">
-                    <h1>Before being misguided <br/>
-                        consult the experts,<br/>
+                    <h1>Before being misguided, <br/>
+                        consult the experts<br/>
                     </h1>
-                    <p>Consult Expert in this field</p>
+                    <h3 style="text-align: center">
+                        WHY MVG?
+                    </h3>
+                    <p style="text-align: justify">
+                        1. Incredible Visa Facilitation </br>
+                        2. Facilitation of Booking appointment with Embassy</br>
+                        3. Increase chances of Visa approval with merovisaguide.com expertise </br>
+                        4. Real time Visa updates and news
+                    </p>
                     <p>
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                     </p>
