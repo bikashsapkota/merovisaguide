@@ -65,19 +65,16 @@
                         WHY MVG?
                     </h3>
                     <p style="text-align: justify">
-                        1. Incredible Visa Facilitation </br>
-                        2. Facilitation of Booking appointment with Embassy</br>
-                        3. Increase chances of Visa approval with merovisaguide.com expertise </br>
-                        4. Real time Visa updates and news
+                         Incredible Visa Facilitation </br>
+                         Facilitation of Booking appointment with Embassy</br>
+                         Increase chances of Visa approval with merovisaguide.com expertise </br>
+                         Real time Visa updates and news
                     </p>
 
                     <p>
 <!--                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>-->
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                     </p>
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <img src="img/landing/laptop.png" alt="laptop"/>
                 </div>
             </div>
             <!-- Set background for slide in css -->
@@ -94,10 +91,10 @@
                         WHY MVG?
                     </h3>
                     <p style="text-align: justify">
-                        1. Incredible Visa Facilitation </br>
-                        2. Facilitation of Booking appointment with Embassy</br>
-                        3. Increase chances of Visa approval with merovisaguide.com expertise </br>
-                        4. Real time Visa updates and news
+                         Incredible Visa Facilitation </br>
+                         Facilitation of Booking appointment with Embassy</br>
+                         Increase chances of Visa approval with merovisaguide.com expertise </br>
+                         Real time Visa updates and news
                     </p>
                     <p>
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
