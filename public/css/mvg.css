@@ -54,3 +54,10 @@
 .footer-link:focus {
     color: #1ab394;
 }
+
+.homep {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffcc;
+}

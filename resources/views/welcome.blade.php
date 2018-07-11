@@ -61,12 +61,12 @@
                         consult the experts<br/>
                     </h1>
 
-                    <p style="text-align: justify; margin-top: 10%">
-                        - Incredible Visa Facilitation </br>
-                        - Facilitation of Booking appointment with Embassy</br>
-                        - Increase chances of Visa approval with merovisaguide.com expertise </br>
-                        - Real time Visa updates and news
-                    </p>
+                    <ul class="homep">
+                        <li>Incredible Visa Facilitation </li>
+                        <li>Facilitation of Booking appointment with Embassy</li>
+                        <li>Increase chances of Visa approval with merovisaguide.com expertise </li>
+                        <li>Real time Visa updates and news</li>
+                    </ul>
 
                     <p>
 <!--                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>-->
@@ -84,12 +84,12 @@
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
-                    <p style="text-align: justify; margin-top: 10%">
-                        - Incredible Visa Facilitation </br>
-                        - Facilitation of Booking appointment with Embassy</br>
-                        - Increase chances of Visa approval with merovisaguide.com expertise </br>
-                        - Real time Visa updates and news
-                    </p>
+                    <ul class="homep">
+                        <li>Incredible Visa Facilitation </li>
+                        <li>Facilitation of Booking appointment with Embassy</li>
+                        <li>Increase chances of Visa approval with merovisaguide.com expertise </li>
+                        <li>Real time Visa updates and news</li>
+                    </ul>
                     <p>
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                     </p>
