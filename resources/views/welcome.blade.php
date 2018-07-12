@@ -148,19 +148,19 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content">
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
+                                <a href="#" class="product-name">Student Visa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="/visatypes/student" class="product-name">Dependent (Spouse) Visa</a>
+                            </li>
+                            <li class="list-group-item">
                                 <a href="#" class="product-name">Parents Visa</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="/visatypes/student" class="product-name">Student Visa</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#" class="product-name">Independent (Spouse) Visa</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="#" class="product-name">Tourist Visa</a>
@@ -170,19 +170,19 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content" style="background-color: #f4f4f4">
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#" class="product-name">Medical Treatment Visa</a>
+                                <a href="#" class="product-name">Immigration Visa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#" class="product-name">High Skilled (Work) Visa</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="#" class="product-name">Conference/Seminar Visa</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#" class="product-name">Work (High Skilled) Visa</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="#" class="product-name">Event/Exhibition Visa</a>
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <div class="grid-item" style="margin-bottom: 25px; width: 300px">
                 <div class="ibox" style="margin-bottom: 0;">
                     <div class="ibox-content">
@@ -204,32 +204,10 @@
                                 <a href="#" class="product-name">Business Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Immigration Visa</a>
+                                <a href="#" class="product-name">Medical Treatment Visa</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="#" class="product-name">Temporary Stay Visa</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="grid-item" style="margin-bottom: 25px; width: 300px">
-                <div class="ibox" style="margin-bottom: 0;">
-                    <div class="ibox-content" style="background-color: #f4f4f4">
-                        <ul class="list-group clear-list" style="font-size: medium; text-align: center">
-                            <li class="list-group-item fist-item">
-                                <a href="#" class="product-name"></a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#" class="product-name">Student Guardian Visa </a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#" class="product-name">Prospective Marriage Visa</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="#" class="product-name">Aged Parent Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -535,11 +513,11 @@
                         <div class="slick_demo_1">
                             <div>
                                 <div class="ibox-content">
-                                    <h2>Ramesh Sharma</h2>
                                     <div class="profile-image">
                                         <img src="img/a4.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                        <h4>Ramesh Sharma</h4>
                                     </div>
-                                    <p>
+                                    <p style="text-align: justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
@@ -557,11 +535,11 @@
                             </div>
                             <div>
                                 <div class="ibox-content">
-                                    <h2>Harry Johnson</h2>
                                     <div class="profile-image">
                                         <img src="img/a2.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                        <h4>Harry Johnson</h4>
                                     </div>
-                                    <p>
+                                    <p style="text-align: justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
@@ -579,11 +557,11 @@
                             </div>
                             <div>
                                 <div class="ibox-content">
-                                    <h2>Sita Kumari Dhakal</h2>
                                     <div class="profile-image">
                                         <img src="img/a3.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                        <h4>Sita Kumari Dhakal</h4>
                                     </div>
-                                    <p>
+                                    <p style="text-align: justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
@@ -673,20 +651,24 @@
         });
 
         $('.slick_demo_1').slick({
-            dots: true
+            dots: true,
+            autoplay: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+//            centerMode: true
         });
 
         $('.slick_demo_2').slick({
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             centerMode: true,
             responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
                         infinite: true,
                         dots: true
                     }
@@ -694,8 +676,8 @@
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                     }
                 },
                 {
