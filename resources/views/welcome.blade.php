@@ -501,7 +501,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1>What our users say</h1>
+                <h1>What our clients say !!</h1>
             </div>
         </div>
 
@@ -512,9 +512,9 @@
                     <div class="ibox">
                         <div class="slick_demo_1">
                             <div>
-                                <div class="ibox-content">
+                                <div class="ibox-custom-content">
                                     <div class="profile-image">
-                                        <img src="img/a4.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                        <img src="img/a4.jpg" class="img-circle circle-border " alt="profile">
                                         <h4>Ramesh Sharma</h4>
                                     </div>
                                     <p style="text-align: justify">
@@ -526,17 +526,14 @@
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
                                         book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     </p>
                                 </div>
                             </div>
                             <div>
-                                <div class="ibox-content">
+                                <div class="ibox-custom-content">
                                     <div class="profile-image">
-                                        <img src="img/a2.jpg" class="img-circle circle-border m-b-md" alt="profile">
+                                        <img src="img/a2.jpg" class="img-circle circle-border" alt="profile">
                                         <h4>Harry Johnson</h4>
                                     </div>
                                     <p style="text-align: justify">
@@ -548,18 +545,15 @@
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
                                         book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     </p>
                                 </div>
                             </div>
                             <div>
-                                <div class="ibox-content">
+                                <div class="ibox-custom-content">
                                     <div class="profile-image">
-                                        <img src="img/a3.jpg" class="img-circle circle-border m-b-md" alt="profile">
-                                        <h4>Sita Kumari Dhakal</h4>
+                                        <img src="img/a3.jpg" class="img-circle circle-border" alt="profile">
+                                        <h4>Sita Dhakal</h4>
                                     </div>
                                     <p style="text-align: justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -570,10 +564,7 @@
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
                                         book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     </p>
                                 </div>
                             </div>
@@ -654,8 +645,7 @@
             dots: true,
             autoplay: true,
             slidesToShow: 2,
-            slidesToScroll: 1,
-//            centerMode: true
+            slidesToScroll: 1
         });
 
         $('.slick_demo_2').slick({

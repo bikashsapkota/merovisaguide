@@ -63,12 +63,23 @@
     color: #ffffcc;
 }
 
-.ibox-custom {
+
+.vl {
+    border-left: 6px;
+    color: #37b394;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.ibox-custom-content {
     background-color: #ffffff;
     color: inherit;
     padding: 15px 20px 20px 20px;
-    border-color: #e7eaec;
+    border-color: #37b394;
     border-image: none;
-    border-style: solid solid none;
-    border-width: 1px 0;
+    border-style: solid;
+    border-width: 0px 1px;
 }
