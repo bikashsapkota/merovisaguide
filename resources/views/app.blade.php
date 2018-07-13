@@ -15,6 +15,7 @@
     <!-- Animation CSS -->
     <link href="/css/animate.css" rel="stylesheet">
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/plugins/dataTables/datatables.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet">
@@ -53,7 +54,7 @@
 <script src="/js/inspinia.js"></script>
 <script src="/js/plugins/pace/pace.min.js"></script>
 <script src="/js/plugins/wow/wow.min.js"></script>
-
+<script src="js/plugins/dataTables/datatables.min.js"></script>
 
 <script>
 
@@ -74,6 +75,7 @@
             event.preventDefault();
             $("#navbar").collapse('hide');
         });
+
     });
 
     var cbpAnimatedHeader = (function() {

@@ -37,3 +37,5 @@ Route::get('/faqs','FaqController@index')->name('faqs');
 //Route::get('/country','CountryVisaController@index')->name('country');
 Route::get('/country/{country}', 'HomeController@showVisatype');
 Route::get('/visatypes/{vt}','HomeController@showCountry');
+
+Route::get('/embassy','EmbassyController@index');
