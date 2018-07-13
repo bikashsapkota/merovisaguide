@@ -64,7 +64,7 @@
             <div class="col-lg-3">
                 <ul class="product-desc list-unstyled">
                     <u style="font-size: 18px">QUICK LINKS</u></br></br>
-                    <li><a class="footer-link" href=""> Embassies</a></li>
+                    <li><a class="footer-link" href= "{{ url('/') }}/embassy"> Embassies</a></li>
                 </ul>
             </div>
         </div>
