@@ -43,6 +43,7 @@
                         <li><a class="page-scroll" href="#pricing">Country</a></li>
                         <li><a class="page-scroll" href="#testimonials">Testimonials</a></li>
                         <li><a class="page-scroll" href="#contact">Contact</a></li>
+                        <li><a class="page-scroll" href="#">News</a></li>
                     </ul>
                 </div>
             </div>
