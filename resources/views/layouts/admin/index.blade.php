@@ -86,6 +86,18 @@
 
                         <div class="hr-line-dashed"></div>
 
+                        <div class="form-group"><label class="col-sm-1 control-label">Post Type</label>
+                            <div class="col-sm-11">
+                                <select class="form-control" name="type">
+                                    <option value="news">News</option>
+                                    <option value="normal">Normal</option>
+                                    <option value="guide">Guide</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+
                         <div class="form-group">
                             <label class="col-sm-1 control-label">Tags</label>
                             <div class="col-sm-11">

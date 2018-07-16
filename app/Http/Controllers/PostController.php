@@ -58,6 +58,7 @@ class PostController extends Controller
         $post->title = $request->title;
         $post->body = $request->post;
         $post->tags = $request->tags;
+        $post->type = $request->type;
         
         $post->save();
 
@@ -149,7 +150,7 @@ class PostController extends Controller
 
 
     public function getRecent(){
-        return Post::orderBy('created_at','desc')->take(10)->get();
+        return Post::orderBy('created_at','desc')->where('posts.type','news')->take(10)->get();
     }
 
     public function getVisatype($country){

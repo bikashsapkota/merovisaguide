@@ -1,11 +1,11 @@
 <div style="padding-top: 100px" >
-    <h3 class="theme-color-text">Recent Posts</h3>
+    <h3 class="theme-color-text">Recent News</h3>
 
     <ul class="list-group clear-list">
 
     </ul>
     <div class="text-center m-t-md">
-        <a href="#" class="btn btn-xs btn-primary">More</a>
+        <a href="/news" class="btn btn-xs btn-primary">More</a>
     </div>
 </div>
 <script type="text/javascript">

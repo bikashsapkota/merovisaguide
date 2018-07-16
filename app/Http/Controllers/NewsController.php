@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     public function index() {
-        return view('news.index');
+    	$news = \App\Post::where('type','news')->get();
+        return view('news.index', compact('news'));
     }
 }
