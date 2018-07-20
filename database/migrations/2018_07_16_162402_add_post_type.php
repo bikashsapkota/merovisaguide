@@ -29,7 +29,7 @@ class AddPostType extends Migration
     {
         //
 
-        Schema::table('music_campaigns', function (Blueprint $table) {
+        Schema::table('posts', function (Blueprint $table) {
             //
             $table->dropColumn('type');
         });
