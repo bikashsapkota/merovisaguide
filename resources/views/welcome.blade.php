@@ -234,7 +234,7 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="#" class="product-name"> Visa Guidance</a>
+                                <a href="/sample#1" class="product-name"> Visa Guidance</a>
 
 
                                 <div class="small m-t-xs">
@@ -242,7 +242,7 @@
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/sample#1" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="#" class="product-name"> Visa Processing</a>
+                                <a href="/sample#2" class="product-name"> Visa Processing</a>
 
 
                                 <div class="small m-t-xs">
@@ -261,7 +261,7 @@
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/sample#2" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="#" class="product-name"> Free Consultation</a>
+                                <a href="/sample#3" class="product-name"> Free Consultation</a>
 
 
                                 <div class="small m-t-xs">
@@ -280,7 +280,7 @@
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/sample#4" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
