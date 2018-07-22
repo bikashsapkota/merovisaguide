@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
+        <div class="faq-item" id="1">
             <div class="row">
                 <div class="col-md-7">
                     <a data-toggle="collapse" href="#faq1" class="faq-question">What does Mero Visa Guide do?</a>
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="faq-item">
+        <div class="faq-item" id="2">
             <div class="row">
                 <div class="col-md-7">
                     <a data-toggle="collapse" href="#faq2" class="faq-question">Why do I need a visa if I already have a US passport?</a>
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="faq-item">
+        <div class="faq-item" id="3">
             <div class="row">
                 <div class="col-md-7">
                     <a data-toggle="collapse" href="#faq3" class="faq-question">How long is my passport valid?</a>
