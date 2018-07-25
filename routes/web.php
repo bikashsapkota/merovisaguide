@@ -43,5 +43,7 @@ Route::get('/embassy','EmbassyController@index');
 Route::get('/news','NewsController@index');
 
 //BIKASH yo sample route ho
-Route::get('/sample','CountryController@index');
+Route::get('/service','CountryController@index');
 Route::get('/sample1','CountryController@index1');
+
+Route::get('/about','HomeController@about');

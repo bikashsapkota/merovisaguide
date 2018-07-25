@@ -70,7 +70,6 @@
                     </ul>
 
                     <p>
-<!--                        <a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click For Enquiry</a>-->
                         <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                     </p>
                 </div>
@@ -128,7 +127,7 @@
             </div>
             <div class="form-group col-lg-4">
                 <label for="exampleInputPassword1">Visa Type</label>
-                <select class="select form-control m-b" name="purpose" id="purpose">
+                <select class="select2 form-control m-b" name="purpose" id="purpose">
 
                 </select>
             </div>
@@ -234,15 +233,15 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="/sample#1" class="product-name"> Visa Guidance</a>
+                                <a href="/service#1" class="product-name"> Visa Guidance</a>
 
 
                                 <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                    Merovisaguide.com has provided countless people globally expert advice and support through the visa application process; and we can help you too.
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="/sample#1" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/service#1" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -253,15 +252,15 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="/sample#2" class="product-name"> Visa Processing</a>
+                                <a href="/service#2" class="product-name"> Visa Processing</a>
 
 
                                 <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                    Visa processing is a key factor to be understood. Visa processing varies accordingly Visa type and the country that we proceed for.
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="/sample#2" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/service#2" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -272,15 +271,15 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="/sample#3" class="product-name"> Free Consultation</a>
+                                <a href="/service#3" class="product-name"> Insurance Guidelines</a>
 
 
                                 <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                    Merovisaguide.com can help you understand and choose insurance company and reliable policy so that if needed, process for health covering
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="/sample#4" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/service#3" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -293,15 +292,15 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="#" class="product-name"> Post Visa Counselling</a>
+                                <a href="/service#4" class="product-name"> Post Visa Counselling</a>
 
 
                                 <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                    After obtaining Visa with a particular purpose, your work is not done , you need to prepare for your departure and you must be conscious about
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/service#4" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -312,15 +311,15 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="#" class="product-name"> Insurance Guidelines</a>
+                                <a href="/service#5" class="product-name"> Documentation</a>
 
 
                                 <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                    You are required to submit proper and precise documentations to apply for Visa. A mistake in documentation can prospect for refusal.
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/service#5" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -331,22 +330,23 @@
                         <div class="ibox-content product-box">
 
                             <div class="product-desc">
-                                <a href="#" class="product-name"> Documentation</a>
+                                <a href="/service#6" class="product-name"> Free Consultation</a>
 
 
                                 <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now. Many desktop publishing packages and web page editors now.
+                                    We also provide free consultation service. You can instantly ask your questions and clear any doubts with our experts at merovisaguide.com.
                                 </div>
                                 <div class="m-t text-right">
 
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    <a href="/service#6" class="btn btn-xs btn-outline btn-primary">More Info <i class="fa fa-long-arrow-right"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
-
+    </div>
 </section>
 
 <section id="pricing" class="pricing">
