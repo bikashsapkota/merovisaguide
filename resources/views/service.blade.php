@@ -25,6 +25,9 @@
                             <p>
                                 All visa application process is not only complex, but can change very rapidly. Merovisaguide.com provides you up-to-date information regarding Visa and required documents so that there will be no hassle for you to apply for Visa. Our consultants understand the nuances of visa requirements and will save your time and money by determining the best visa option for you.
                             </p>
+                            <p>
+                                <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -42,6 +45,9 @@
                         <div class="faq-answer">
                             <p>
                                 Visa processing is a key factor to be understood. Visa processing varies accordingly Visa type and the country that we proceed for. Visa processing time is also determined by type of Visa and country , you are applying for. merovisaguide.com helps you know how visa is processed and how much time it takes to get the particular visa that you have applied for.
+                            </p>
+                            <p>
+                                <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                             </p>
                         </div>
                     </div>
@@ -64,6 +70,9 @@
                             <p>
                                 Health Insurance is a major task to be done before applying visa to some countries, especially for student, visit, work and immigration visa. Ensuring own health can help you overcome health related problems on abroad. A considerable cost is spent to cover your health, in turn, your expenses for health are covered by the insurance company reasonably according to the policy done. It is a cover for risk that very often incurs in our lives.
                             </p>
+                            <p>
+                                <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -84,6 +93,9 @@
                             </p>
                             <p>
                                 Our expert will advise you proper further steps for your happy and prosperous journey. In the case of the students , we also guide for searching jobs and assist for it.
+                            </p>
+                            <p>
+                                <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                             </p>
                         </div>
                     </div>
@@ -106,6 +118,9 @@
                             <p>
                                 Health Insurance is a major task to be done before applying visa to some countries, especially for student, visit, work and immigration visa. Ensuring own health can help you overcome health related problems on abroad. A considerable cost is spent to cover your health, in turn, your expenses for health are covered by the insurance company reasonably according to the policy done. It is a cover for risk that very often incurs in our lives.
                             </p>
+                            <p>
+                                <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -123,6 +138,9 @@
                         <div class="faq-answer">
                             <p>
                                 You are required to submit proper and precise documentations to apply for Visa. A mistake in documentation can prospect for refusal. merovisaguide.com indeed helps you prepare precise and effective visa documentation without any marginal error.
+                            </p>
+                            <p>
+                                <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                             </p>
                         </div>
                     </div>
