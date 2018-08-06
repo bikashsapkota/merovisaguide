@@ -115,9 +115,7 @@
                             <p>
                                 Merovisaguide.com can help you understand and choose insurance company and reliable policy so that if needed, process for health covering wouldn’t be delayed or insured in difficult condition.
                             </p>
-                            <p>
-                                Health Insurance is a major task to be done before applying visa to some countries, especially for student, visit, work and immigration visa. Ensuring own health can help you overcome health related problems on abroad. A considerable cost is spent to cover your health, in turn, your expenses for health are covered by the insurance company reasonably according to the policy done. It is a cover for risk that very often incurs in our lives.
-                            </p>
+
                             <p>
                                 <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
                             </p>
@@ -137,7 +135,7 @@
                     <div id="faq3" class="panel-collapse collapse in">
                         <div class="faq-answer">
                             <p>
-                                You are required to submit proper and precise documentations to apply for Visa. A mistake in documentation can prospect for refusal. merovisaguide.com indeed helps you prepare precise and effective visa documentation without any marginal error.
+                                We also provide free consultation through online chat.
                             </p>
                             <p>
                                 <a data-toggle="modal" class="btn btn-primary" href="#modal-form">Click for enquiry</a>
