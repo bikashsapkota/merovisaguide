@@ -30,6 +30,10 @@ class HomeController extends Controller
         return view('home');
     }
     
+    public function about() {
+        return view('about');
+    }
+    
     public function landing(){
         $countr = \App\Country::get();
         //return $country->count();

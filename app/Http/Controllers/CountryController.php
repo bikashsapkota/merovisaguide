@@ -14,7 +14,7 @@ class CountryController extends Controller
      */
     public function index()
     {
-        return view('sample');
+        return view('service');
     }
     
     public function index1() {

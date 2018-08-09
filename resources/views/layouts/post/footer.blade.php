@@ -45,7 +45,7 @@
                 <ul class="product-desc list-unstyled">
                     <u style="font-size: 18px">ABOUT MVG</u></br></br>
                     <li><a class="footer-link" href="{{ url('/') }}/faqs"> FAQs</a></li>
-                    <li><a class="footer-link" href=""> About Us</a></li>
+                    <li><a class="footer-link" href="{{ url('/') }}/about"> About Us</a></li>
                     <li><a class="footer-link" href=""> Terms and Conditions</a></li>
                     <li><a class="footer-link" href=""> Privacy Policy</a></li>
                 </ul>
