@@ -11,7 +11,7 @@
 
     <div class="col-lg-4">
         <div class="contact-box center-version">
-        <a href="#">
+        <a href="/landingtopost?purpose={{$visatype->id}}&country={{$coun->id}}">
             <div class="dd-handle">
                 <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> {{$visatype->name}}
             </div>

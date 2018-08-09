@@ -7,16 +7,16 @@
     </div>
 <div class="row" style="margin-top: 5%">
 
-    @foreach($visatypes as $visatype)
+    @foreach($countries as $country)
 
     <div class="col-lg-4">
         <div class="contact-box center-version">
-        <a href="#">
+        <a href="/landingtopost?country={{$visa->id}}&purpose={{$country->id}}">
             <div class="dd-handle">
-                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> {{$visatype->name}}
+                <span class="label label-info"><i class="fa fa-graduation-cap"></i></span> {{$country->name}}
             </div>
             <div class="m-t-md">
-                Apply for {{$visatype->name}}
+                Apply for {{$country->name}}
             </div>
         </a>
         </div>

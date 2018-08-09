@@ -48,7 +48,8 @@ class HomeController extends Controller
                         ->first();
 
         if($countryVisaPost == null){
-            return redirect('/#visa-type')->with('error','Particular Post Not found');
+            return view('404');
+            //return redirect('/#visa-type')->with('error','Particular Post Not found');
         }
 
         return redirect('/post/'.str_replace(' ', '-', $countryVisaPost->title));
@@ -62,28 +63,34 @@ class HomeController extends Controller
 
     public function showVisatype($country){
         $name = str_replace('-', ' ', $country);
-        //$coun = Country::where('name',$name)->first();
+        $coun = Country::where('name',$name)->first();
 
-        $visatypes = CountryVisa::join('countries','countries.id','country_visas.country_id')
-                    ->where('countries.name', $name)
-                    ->join('visa_types','country_visas.visa_type_id','visa_types.id')
-                    ->select('visa_types.name','visa_types.id')
-                    ->get();
-        return view('country.index',compact('visatypes', 'name'));
+        // $visatypes = CountryVisa::join('countries','countries.id','country_visas.country_id')
+        //             ->where('countries.name', $name)
+        //             ->join('visa_types','country_visas.visa_type_id','visa_types.id')
+        //             ->select('visa_types.name','visa_types.id')
+        //             ->get();
+
+        $visatypes = VisaType::all();
+
+        return view('country.index',compact('visatypes', 'name', 'coun'));
 
     }
 
 
-    public function showCountry($country){
-        $name = str_replace('-', ' ', $country);
+    public function showCountry($vt){
+        $name = str_replace('-', ' ', $vt);
+        $visa = VisaType::where('name',$name)->select('id')->first();
+        
         //$coun = Country::where('name',$name)->first();
 
-        $visatypes = CountryVisa::join('countries','countries.id','country_visas.country_id')
-                    ->join('visa_types','country_visas.visa_type_id','visa_types.id')
-                    ->where('visa_types.name', $name)
-                    ->select('countries.name','countries.id')
-                    ->get();
-        return view('country.visatype',compact('visatypes', 'name'));
+        // $visatypes = CountryVisa::join('countries','countries.id','country_visas.country_id')
+        //             ->join('visa_types','country_visas.visa_type_id','visa_types.id')
+        //             ->where('visa_types.name', $name)
+        //             ->select('countries.name','countries.id')
+        //             ->get();
+        $countries = Country::all();            
+        return view('country.visatype',compact('countries', 'name','visa'));
 
     }
 
