@@ -118,7 +118,6 @@
             <div class="form-group col-lg-4">
                 <label for="exampleInputEmail1">Country</label>
                 <select class="select2 form-control m-b" name="country" id="country">
-                    <option value=231>USA</option>
                     @foreach($countr as $country)
                         <option value={{$country->id}}>{{$country->name}}</option>
                     @endforeach
