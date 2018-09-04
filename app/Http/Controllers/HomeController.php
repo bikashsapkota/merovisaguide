@@ -38,7 +38,8 @@ class HomeController extends Controller
         $countr = \App\Country::get();
         //return $country->count();
         $countries = CountryVisa::join('countries','country_visas.country_id','countries.id')->get()->unique('country_id');
-        return view('welcome', compact('countries','countr'));
+        $visatypes = VisaType::get();
+        return view('welcome', compact('countries','countr','visatypes'));
     }
 
     public function landingToPost(Request $request){

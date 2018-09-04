@@ -119,7 +119,7 @@
                 <label for="exampleInputEmail1">Country</label>
                 <select class="select2 form-control m-b" name="country" id="country">
                     <option value=231>USA</option>
-                    @foreach($countries as $country)
+                    @foreach($countr as $country)
                         <option value={{$country->id}}>{{$country->name}}</option>
                     @endforeach
                 </select>
@@ -128,7 +128,9 @@
             <div class="form-group col-lg-4">
                 <label for="exampleInputPassword1">Visa Type</label>
                 <select class="select2 form-control m-b" name="purpose" id="purpose">
-
+                    @foreach($visatypes as $visatype)
+                        <option value={{$visatype->id}}>{{$visatype->name}}</option>
+                    @endforeach
                 </select>
             </div>
 
@@ -384,7 +386,7 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <a href="/Canada">
+                        <a href="/country/Canada">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/Canada.png" alt="flag"></span> &nbsp;&nbsp; CANADA
                             </div>
@@ -395,7 +397,7 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <a href="/New-Zealand">
+                        <a href="/country/New-Zealand">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/New-Zealand.png" alt="flag"></span> &nbsp;&nbsp; NEW ZEALAND
                             </div>
@@ -409,7 +411,7 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <a href="/Denmark">
+                        <a href="/country/Denmark">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/Denmark.png" alt="flag"></span> &nbsp;&nbsp; DENMARK
                             </div>
@@ -420,7 +422,7 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <a href="/United-Kingdom">
+                        <a href="/country/United-Kingdom">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/United-Kingdom.png" alt="flag"></span> &nbsp;&nbsp; United Kingdom
                             </div>
@@ -431,7 +433,7 @@
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <a href="/Germany">
+                        <a href="/country/Germany">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/Germany.png" alt="flag"></span> &nbsp;&nbsp; GERMANY
                             </div>
@@ -443,7 +445,7 @@
                 <div class="ibox ">
 
                     <div class="ibox-content">
-                        <a href="/Norway">
+                        <a href="/country/Norway">
                             <div class="dd-handle">
                                 <span class="flags"><img src="img/flags/32/Norway.png" alt="flag"></span> &nbsp;&nbsp; NORWAY
                             </div>
@@ -456,39 +458,46 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="ibox ">
-                    <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/United-Arab-Emirates.png" alt="flag"></span> &nbsp;&nbsp; UAE
+                    <a href="/country/UAE">
+                        <div class="ibox-content">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/United-Arab-Emirates.png" alt="flag"></span> &nbsp;&nbsp; UAE
+                            </div>
                         </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ibox ">
+                    <div class="ibox-content">
+                        <a href="/country/Malaysia">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Malaysia.png" alt="flag"></span> &nbsp;&nbsp; MALAYSIA
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
                     <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Malaysia.png" alt="flag"></span> &nbsp;&nbsp; MALAYSIA
-                        </div>
+                        <a href="/country/China">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/China.png" alt="flag"></span> &nbsp;&nbsp; CHINA
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="ibox ">
-                    <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/China.png" alt="flag"></span> &nbsp;&nbsp; CHINA
+                    <a href="/country/Singapore">
+                        <div class="ibox-content">
+                            <div class="dd-handle">
+                                <span class="flags"><img src="img/flags/32/Singapore.png" alt="flag"></span> &nbsp;&nbsp; SINGAPORE
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="ibox ">
-
-                    <div class="ibox-content">
-                        <div class="dd-handle">
-                            <span class="flags"><img src="img/flags/32/Singapore.png" alt="flag"></span> &nbsp;&nbsp; SINGAPORE
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -726,10 +735,10 @@
     new WOW().init();
 
     $('#country').on('change',function(){
-        updateVisaOption(this.value)        
+        //updateVisaOption(this.value)        
     });
 
-    updateVisaOption(231)
+    //updateVisaOption(231)
 
     function updateVisaOption(id){
         url = '/api/visatype/'+id
