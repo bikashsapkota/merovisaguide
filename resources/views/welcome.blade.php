@@ -156,16 +156,16 @@
                     <div class="ibox-content">
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#" class="product-name">Student Visa</a>
+                                <a href="/visatypes/Student" class="product-name">Student Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="/visatypes/student" class="product-name">Dependent (Spouse) Visa</a>
+                                <a href="/visatypes/Dependent-(Spouse)" class="product-name">Dependent (Spouse) Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Parents Visa</a>
+                                <a href="/visatypes/Parents" class="product-name">Parents Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Tourist Visa</a>
+                                <a href="/visatypes/Tourist" class="product-name">Tourist Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -178,16 +178,16 @@
                     <div class="ibox-content" style="background-color: #f4f4f4">
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#" class="product-name">Immigration Visa</a>
+                                <a href="/visatypes/Immigration" class="product-name">Immigration Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">High Skilled (Work) Visa</a>
+                                <a href="/visatypes/High-Skilled" class="product-name">High Skilled (Work) Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Conference/Seminar Visa</a>
+                                <a href="/visatypes/Conference" class="product-name">Conference/Seminar Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Event/Exhibition Visa</a>
+                                <a href="/visatypes/Event" class="product-name">Event/Exhibition Visa</a>
                             </li>
                         </ul>
                     </div>
@@ -200,16 +200,16 @@
                     <div class="ibox-content">
                         <ul class="list-group clear-list" style="font-size: medium; text-align: center">
                             <li class="list-group-item fist-item">
-                                <a href="#" class="product-name">Diplomatic Visa</a>
+                                <a href="/visatypes/" class="product-name">Diplomatic Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Business Visa</a>
+                                <a href="/visatypes/" class="product-name">Business Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Medical Treatment Visa</a>
+                                <a href="/visatypes/" class="product-name">Medical Treatment Visa</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="product-name">Temporary Stay Visa</a>
+                                <a href="/visatypes/" class="product-name">Temporary Stay Visa</a>
                             </li>
                         </ul>
                     </div>
