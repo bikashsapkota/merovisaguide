@@ -50,3 +50,8 @@ Route::get('/service','CountryController@index');
 Route::get('/sample1','CountryController@index1');
 
 Route::get('/about','HomeController@about');
+
+Route::get('/testomonials','TestomonialController@index')->name('enqueries');
+Route::get('/admin/testomonial/create','TestomonialController@create');
+Route::post('/admin/testomonial/store','TestomonialController@store')->name('admin.add_testmonial');
+Route::get('/admin/testomonial/delete/{testomonial}','TestomonialController@destroy');

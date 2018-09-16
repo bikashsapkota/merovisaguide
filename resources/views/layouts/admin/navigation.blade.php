@@ -30,6 +30,9 @@
             <li class="false">
                 <a href="{{ url('/enqueries') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Enqueries</span> </a>
             </li>
+            <li class="false">
+                <a href="{{ url('/testomonials') }}"><i class="fa fa-th-large"></i> <span class="nav-label">Testomonials</span> </a>
+            </li>
         </ul>
 
     </div>

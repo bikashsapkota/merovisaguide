@@ -520,63 +520,19 @@
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="ibox">
                         <div class="slick_demo_1">
+                            @foreach($testomonials as $testomonial)
                             <div>
                                 <div class="ibox-custom-content">
                                     <div class="profile-image">
-                                        <img src="img/a4.jpg" class="img-circle circle-border " alt="profile">
-                                        <h4>Ramesh Sharma</h4>
+                                        <img src="img/{{$testomonial->photo}}" class="img-circle circle-border" alt="profile" height="128" width="128">
+                                        <h4>{{$testomonial->name}}</h4>
                                     </div>
                                     <p style="text-align: justify">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        {{$testomonial->description}}
                                     </p>
                                 </div>
                             </div>
-                            <div>
-                                <div class="ibox-custom-content">
-                                    <div class="profile-image">
-                                        <img src="img/a2.jpg" class="img-circle circle-border" alt="profile">
-                                        <h4>Harry Johnson</h4>
-                                    </div>
-                                    <p style="text-align: justify">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="ibox-custom-content">
-                                    <div class="profile-image">
-                                        <img src="img/a3.jpg" class="img-circle circle-border" alt="profile">
-                                        <h4>Sita Dhakal</h4>
-                                    </div>
-                                    <p style="text-align: justify">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap.
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    </p>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
