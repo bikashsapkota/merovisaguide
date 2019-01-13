@@ -96,5 +96,7 @@ class EnqueryController extends Controller
     public function destroy(Enquery $enquery)
     {
         //
+        $enquery->delete();
+        return redirect()->back();   
     }
 }

@@ -5,7 +5,7 @@
         <div class="col-lg-12">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>Basic Data Tables example with responsive plugin</h5>
+                <h5>Enqueries </h5>
                 <div class="ibox-tools">
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
@@ -38,7 +38,7 @@
                 <th>Country</th>
                 <th>Purpose</th>
                 <th>Message</th>
-                <th>Status</th>
+                <!-- <th>Status</th> -->
             </tr>
             </thead>
             <tbody>
@@ -52,10 +52,16 @@
                 <td>{{$enquery->country}}</td>
                 <td>{{$enquery->purpose}}</td>
                 <td>{{$enquery->message}}</td>
-                <td>{{$enquery->status}}</td>
+                <!-- <td>
+                    <select >
+                        <option >NTH</option>
+                        <option @if($enquery->status == "1") selected @endif>A</option>
+                        <option @if($enquery->status == "2") selected @endif>B</option>
+                        <option @if($enquery->status == "3") selected @endif>C</option>
+                    </select>
+                </td> -->
 
                 <td>
-                    <a href="/admin/enquery/edit/{{$enquery->id}}"><button>Edit</button></a>
                     <a href="/admin/enquery/delete/{{$enquery->id}}"><button>Delete</button></a>
                 </td>
                 
@@ -72,7 +78,7 @@
                 <th>Country</th>
                 <th>Purpose</th>
                 <th>Message</th>
-                <th>Status</th>
+                <!-- <th>Status</th> -->
             </tr>
             </tfoot>
             </table>
