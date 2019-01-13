@@ -35,6 +35,9 @@
     display: inline-block;}
     .contant_box_404{ margin-top:-50px;}
 </style>
+@extends('layouts.post.app')
+@section('content')
+<div class="wrapper wrapper-content  animated fadeInRight article" style="margin-top: 10%">
 <section class="page_404">
     <div class="container">
         <div class="row">   
@@ -60,3 +63,5 @@
         </div>
     </div>
 </section>
+</div>
+@endsection
