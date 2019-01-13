@@ -51,6 +51,7 @@
         </h3>
         
         <p>the page you are looking for not avaible!</p>
+        <p>Only Rajesh Dai can find it, we can't</p>
         
         <a href="/" class="link_404">Go to Home</a>
     </div>
