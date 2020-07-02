@@ -46,6 +46,7 @@ Route::get('/visatypes/{vt}','HomeController@showCountry');
 Route::get('/embassy','EmbassyController@index');
 
 Route::get('/news','NewsController@index');
+Route::get('/marathi','NewsController@marathi');
 
 //BIKASH yo sample route ho
 Route::get('/service','CountryController@index');

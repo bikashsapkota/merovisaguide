@@ -16,7 +16,7 @@
                     <div class="col-md-8">
                         <a href="article.html" class="btn-link">
                             <h2>
-                                Their pronunciation and their most
+                                Their pronunciation and their most 
                             </h2>
                         </a>
                         <div class="small m-b-xs">

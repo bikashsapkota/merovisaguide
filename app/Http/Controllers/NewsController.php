@@ -10,4 +10,8 @@ class NewsController extends Controller
     	$news = \App\Post::where('type','news')->get();
         return view('news.index', compact('news'));
     }
+
+    public function marathi() {
+        return view('marathi');
+    }
 }

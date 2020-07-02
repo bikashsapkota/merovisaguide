@@ -1,0 +1,104 @@
+.unicode_wrap {
+	text-align:center;
+	background-color:#FBFBFB;
+	}
+.unicode_roman {
+	/*background-image: url('../images/bg.png');*/
+	text-align: left;
+	color:#999;
+	height:100%;
+	width:80%;
+	margin: 0 auto;
+	}
+.unicode_cap {
+	width: 140px;
+	line-height: 18px;
+	color: #656565;
+	font-size: 12px;
+	background-image: url('../images/bg.png');
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-left: 10px;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+.unicode_cap_1 {
+	width:100px;
+	line-height: 18px;
+	color: #656565;
+	font-size:11px;
+	background-image: url('../images/bg.png');
+	text-align:center;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+.textarea_unicode {
+	width:97.988%;
+	height: 120px;
+	outline: none;
+	border: 1px solid #cccccc;
+	font-size:14px;
+	font-family: "Courier New",Courier;
+	background-image: url('../images/bg.png');
+	background-repeat:repeat;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	}
+.unicode-marquee{
+	background-color:#CCC; background-image: url('../images/bg.png'); padding-left:5px; padding-right:5px; text-shadow: 1px 1px 1px #F6F6F6; box-shadow: inset 1px 1px  5px 0px #F6F6F6;
+	}
+.unicode-border{
+	background-color:#F5F5F5;
+	padding: 5px 10px;
+	border-top:1px solid #CCC; border-right:1px solid #CCC; border-left:1px solid #CCC;
+	}
+.unicode-border-left-first{
+	float: left;
+	width: 70px; height: 70px;
+	background-color:#F5F5F5;
+	padding: 0 0 0 10px;
+	border-top:1px solid #CCC; border-left:1px solid #CCC; border-bottom:1px solid #CCC;
+	}
+.unicode-border-left{
+	float: left;
+    text-align: center;
+	width:64px; height: 60px;
+	background-color:#F5F5F5;
+	padding: 5px 2px;
+	border-top:1px solid #CCC; border-left:1px solid #CCC; border-bottom:1px solid #CCC;
+	}
+.unicode-border-left-last{
+	float:left;
+	background-color:#F5F5F5;
+	height:60px;
+	width:62.5px;
+	padding: 5px 2px 5px 2px;
+	border:1px solid #CCC;
+	}
+.facebook {
+	font-size:13px;	
+}
+textarea#textarea_code{
+	width: 95%;
+	height: 115px;
+	border: 3px solid #cccccc;
+	font-family: "Courier New",Courier;
+	background-image: url('../images/bg.png');
+	background-repeat:repeat;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 480px)
+{
+    .textarea_unicode {
+	    width:97.988%;
+	    height: 100px;
+    }
+}
