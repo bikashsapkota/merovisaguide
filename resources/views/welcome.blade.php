@@ -58,6 +58,8 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-caption">
+                    <br><br><br><br>
+
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
@@ -81,6 +83,7 @@
         <div class="item">
             <div class="container">
                 <div class="carousel-caption ">
+                    <br><br><br><br>
                     <h1>Before being misguided, <br/>
                         consult the experts<br/>
                     </h1>
