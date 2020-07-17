@@ -36,6 +36,10 @@
                     </button>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                         <img src="/img/logo.jpg" width="50px" height="50px">
+                    </ul>
+                    </ul>          
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="page-scroll" href="#page-top">Home</a></li>
                         <li><a class="page-scroll" href="#visa-type">Visa Type</a></li>
@@ -524,7 +528,7 @@
                     <div class="ibox">
                         <div class="slick_demo_1">
                             @foreach($testomonials as $testomonial)
-                            <div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="ibox-custom-content">
                                     <div class="profile-image">
                                         <img src="img/{{$testomonial->photo}}" class="img-circle circle-border" alt="profile" height="128" width="128">
